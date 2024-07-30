@@ -17,7 +17,7 @@ export const Chef = z.object({
   backgroundHex: z.string().optional(),
   id: z.string(),
   image: z.string().optional(),
-  bio: z.string(),                //FIXME - should this be Optional? Check with Basecamp team
+  bio: z.string().optional(),                //FIXME - should this be Optional? Check with Basecamp team
   foregroundHex: z.string().optional()
 });
 
