@@ -1,0 +1,3515 @@
+[
+  {
+    "title": "Dish of the day",
+    "id": "7146326C-CD24-4F3E-9A9D-DEDA61F1F1D1",
+    "body": "",
+    "items": [
+      {
+        "recipe": {
+          "id": "bc08f22818424e9489f47ab38a122179"
+        }
+      }
+    ]
+  },
+  {
+    "id": "329251D4-950D-4A85-A796-5264A169F5D4",
+    "title": "Ottolenghi's Comfort: exclusive new recipes",
+    "body": "",
+    "items": [
+      {
+        "recipe": {
+          "id": "767f97b8275340e2b56f223eb8e97dbb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "6b69c1c1bde8472e9e0dd930a6a54b05"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b73aad6cc5384589af6cc1b62d74b04e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "db723e4b1c64456fad8b120beebfdfdb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "cff096147abb4bfca8480fc21cc3a9e3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "273c0ef6a4f546488b58853686d59c1c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d74b6d3a910a4a6f8f1708cc5539d8dd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "e2f13be00bbc441d8f73aae68bc2e238"
+        }
+      }
+    ]
+  },
+  {
+    "body": "",
+    "title": "Easy chicken dinners",
+    "id": "D2A706AE-1BEF-4CAA-8AAC-734DA1A31F3E",
+    "items": [
+      {
+        "recipe": {
+          "id": "0e80764ae54649bd97603b005a0f45d6"
+        }
+      },
+      {
+        "recipe": {
+          "id": "1e7aa8fefcb94a32821b4213655e30e7"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0830ff91f3274f91a058ae0183f726da"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0028e398053d4e959a01799fdce9d794"
+        }
+      },
+      {
+        "recipe": {
+          "id": "dc96426af1294a42bfba71ecbfa9963d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "161869b763f74f34a8b3da9b9977726c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "844a363b2441405dbb73f30815b8f54b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a95199f8c4d044b69d7be979e1f61d37"
+        }
+      },
+      {
+        "recipe": {
+          "id": "da20220d44424bcdbf3c2e18a319cb3f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3cbbb6f0875e41b9adb90695c3c03be1"
+        }
+      },
+      {
+        "recipe": {
+          "id": "8cc8cfcc79eb4ad9b919dd7ef6bff17c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0a1f09fcf3844da7a2c387221a21ec77"
+        }
+      }
+    ]
+  },
+  {
+    "title": "30 ways with tomatoes, from tarts to fritters",
+    "items": [
+      {
+        "recipe": {
+          "id": "0add469d5da74c15b476767faddb08b5"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0779176d16a84305a62b55edbe31c2e3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "586d0901ad3f47efa4b28610226e9a72"
+        }
+      },
+      {
+        "recipe": {
+          "id": "71a73fa7729a4968a5203109c015a404"
+        }
+      },
+      {
+        "recipe": {
+          "id": "30573381a9f642fda47907e5167fd705"
+        }
+      },
+      {
+        "recipe": {
+          "id": "1f36c401d8114f2b936ec8537a60b8c0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "7963e61a5d0e4ac4abf48858b62d0f4e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "4567b5b88d924161b812a1b04bde00c4"
+        }
+      },
+      {
+        "recipe": {
+          "id": "52fb6c48f3d7461da1afd87e4b3d0a05"
+        }
+      },
+      {
+        "recipe": {
+          "id": "506196afe5494998aec420d1caca0bd9"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9fd19210670d494fb3ddd46857d7cf3b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "bcec278ba9a947d5a2a4b3ad1237b613"
+        }
+      },
+      {
+        "recipe": {
+          "id": "54e92f4c68824573bef4e49af6780145"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f5e68ffc84c4421b99a24191d6d76fd8"
+        }
+      },
+      {
+        "recipe": {
+          "id": "631fcde51e8d40c2a874ab73662f73da"
+        }
+      },
+      {
+        "recipe": {
+          "id": "96040f268e654f2f9c30206fcfc973dc"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a30de1389c634121b778faaa3c732ae7"
+        }
+      },
+      {
+        "recipe": {
+          "id": "fce160c2dc95a88a2bf2515757181cea1a856517"
+        }
+      },
+      {
+        "recipe": {
+          "id": "85d08351968c4907bc1bc4d2c2ad3073"
+        }
+      },
+      {
+        "recipe": {
+          "id": "44edf4ab10d64ec480ebc709913afc87"
+        }
+      },
+      {
+        "recipe": {
+          "id": "39b49cf4cc474f999c1bf4abd439f6c0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "983f3901194d4ac4857c75cee350ac1c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "be5b1d95451344179cddf1d18dfcde0d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d3197693daf948f49865aae9aff5d604"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ab6e7366943147b5adf6a482ecd4bf86"
+        }
+      },
+      {
+        "recipe": {
+          "id": "76404b1074524dd1a2af705a58eda608"
+        }
+      },
+      {
+        "recipe": {
+          "id": "13bb31afc18c497e8da1f0716515cea8"
+        }
+      },
+      {
+        "recipe": {
+          "id": "2805b47ef1f34b49a0a8354e1dd37630"
+        }
+      },
+      {
+        "recipe": {
+          "id": "bce1cf3bc9ae462bb35ba41845b34c3f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "bb3de4287169495f9e8dbe583f174bd4"
+        }
+      }
+    ],
+    "body": "",
+    "id": "305FFCC0-0515-4582-B9D7-4BE445652428"
+  },
+  {
+    "items": [
+      {
+        "recipe": {
+          "id": "fe46eeeadcb54213bfcdb1c99566dad3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0da43fbf609d4d1d99b7e119b28610cb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "88f8038112764daebbcd103a3966a5e1"
+        }
+      },
+      {
+        "recipe": {
+          "id": "847b1fdc4a564a5282fa3dc1b634f5ce"
+        }
+      },
+      {
+        "recipe": {
+          "id": "10dc079cd10a442d92d36e1ccab7828b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "65c3417c993f4c67aedb9ebeb9b4e529"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9c1a4c79e7e4433e97d6002b98cf0b3a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "6695d32b6a72fad95fe3d53402e08c6bddd2bc80"
+        }
+      },
+      {
+        "recipe": {
+          "id": "8279a0b83ebc2303b7789e80f75548ba8df93b7d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "7fcfc6d3884d4e05aad955a809864a15"
+        }
+      },
+      {
+        "recipe": {
+          "id": "24e720a2b1af480291eda4ed8c37ccb3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "108aa6c0b5ef452c9078214fa9f6b41f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9f71e814c82acdf3f51ec1e71751740efe594da8"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3c24b61ae804504e2fae3e6268620210379a0183"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ce62905a28aa474aa14fd601b1249cab"
+        }
+      },
+      {
+        "recipe": {
+          "id": "76fa1c9cfd7446ee8c877b2ca4a133fd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a8f6c5802a3d49f9a38c8669f62a33b4"
+        }
+      }
+    ],
+    "body": "",
+    "title": "17 frozen recipes to keep you cool",
+    "id": "DB1DEE83-B3F1-4555-A16F-DB2FDCD3D5A8"
+  },
+  {
+    "title": "Our latest recipes",
+    "items": [
+      {
+        "recipe": {
+          "id": "a22483b1782546ecb4d89740ed7a0bcd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0393b3b4167f477785f9a1dd9c9ee45e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "76360fcd4b0648beb90179046284a526"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f1be03c419154f23b64967ecf1fe5a31"
+        }
+      },
+      {
+        "recipe": {
+          "id": "89bdd8366c1c49348d5ed5bee2f07ec3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a90de976948e46e6bb140edfa7d790f3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "8b4b6b424152453096801e6aaf8f86fb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "06ad6615624c4c81836f2d8a732a807c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3e6504033f064fb9b1ded791e3a5ae27"
+        }
+      },
+      {
+        "recipe": {
+          "id": "6ce553d6acec4c7c8f0a3298ad9b86e9"
+        }
+      },
+      {
+        "recipe": {
+          "id": "31f5476d2d084ebfa14b6012a60963df"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9ff36c7e70234cee8a01b2485b5584e6"
+        }
+      },
+      {
+        "recipe": {
+          "id": "394032cfdede4afda02eb112f00838a7"
+        }
+      },
+      {
+        "recipe": {
+          "id": "38b9ab7ee629410d97db7160a8231fad"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a13bb25a523c42bf993ae7fa33ae45f5"
+        }
+      },
+      {
+        "recipe": {
+          "id": "64c1d1b4d03a48b19aae7266d501aa95"
+        }
+      },
+      {
+        "recipe": {
+          "id": "75423815ced54f80931e8e534c6a0172"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ef3d351a07f144edb851f0471ab8acf0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "abd07b32736d4eb8bbb1bd2470156be1"
+        }
+      },
+      {
+        "recipe": {
+          "id": "7a3b0cf5a0d349edb1b8c643887a59e0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "43565a3cb315463ca2167fef43ae428d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c696635f64c145f695107b61b726fe3a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a3a15841cb534274aa37f2c49e8629d7"
+        }
+      },
+      {
+        "recipe": {
+          "id": "5ea4bcfd1ab64db68e7f0e8ddcf814e9"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f5de370787c94504b6bb83d43d44afd9"
+        }
+      },
+      {
+        "recipe": {
+          "id": "60549bdf83dd4326b6f5b382ff3603bb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "74388b3233e24ac8a1e5f0f9c96b860b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ffb92ca892d9458b9f0527ca6e7ccc8a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b5d5f35b7201456294df3a86bf6f8d02"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a443eba6a7914c85b7a9f0d9bc93542f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ccd92843b380427080a3f587afefc9e3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c45662d105af4bd18eb0414d06bc7480"
+        }
+      },
+      {
+        "recipe": {
+          "id": "accf85d34fda49dfb199cbb149d9b679"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3b3ba7fb30b24e83a6caef20eea83c91"
+        }
+      }
+    ],
+    "id": "D600EFAF-FD4F-4902-B374-DCDC86E40181",
+    "body": ""
+  },
+  {
+    "title": "No-cook meals for hot nights",
+    "id": "FE07F659-16A0-47CA-9ECA-D26A64C36035",
+    "items": [
+      {
+        "recipe": {
+          "id": "983f3901194d4ac4857c75cee350ac1c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "2b8be8cae04c277876cd616de1003577398196fd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "44edf4ab10d64ec480ebc709913afc87"
+        }
+      },
+      {
+        "recipe": {
+          "id": "64a9ab4165dded6657d71976f300671523021fef"
+        }
+      },
+      {
+        "recipe": {
+          "id": "05ea119eebf146b19e2a352cd34084fd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d17826ba737f1df129e61d27ac53d3a56b8459f6"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0f3bbe9524144229ad6f0b5b02364564"
+        }
+      },
+      {
+        "recipe": {
+          "id": "fc24017ffbd3433796847c42eb5f1c6e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c50aace32b1c4cfdba3607f234e8ec3d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a60bc181db879efb41b147a09e984ac6b3b06ca2"
+        }
+      }
+    ],
+    "body": ""
+  },
+  {
+    "title": "Pack up a picnic",
+    "items": [
+      {
+        "recipe": {
+          "id": "100873ba77a447a38ae1dfde4039d781"
+        }
+      },
+      {
+        "recipe": {
+          "id": "4757839b8a86401fbc5dcc4bbb774c5d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c3dd51b7c4a54df2bc8127b3cccfb5bc"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9ed905082e4a4d9282f353552be2a27d"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d3270411ee914aa68472b67211c74c42"
+        }
+      },
+      {
+        "recipe": {
+          "id": "425f44d552d441849e645f88e71976cd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "bcec278ba9a947d5a2a4b3ad1237b613"
+        }
+      },
+      {
+        "recipe": {
+          "id": "218e420723d1453c87eaa1f370329710"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d5a4cd98f011467eb06545324c41a5dd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "6752f7b390854ff39be72b613b6b9338"
+        }
+      },
+      {
+        "recipe": {
+          "id": "17dd906402729150fb40e4b77426b18b026ff9b6"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3b05644170b249c9b6de2140ab3f4ddf"
+        }
+      },
+      {
+        "recipe": {
+          "id": "eb47be39db544993acd9b086ae434614"
+        }
+      },
+      {
+        "recipe": {
+          "id": "29e745fee3fc4a5a9bdc40cb7b89392f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "74c0b074c732888dde03f296ad5a89a5cdfc89cd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "e7e8b2f8a7f747109a5728edc99b064b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b4fc1cca9eaa46eab5cf4c574acebe15"
+        }
+      },
+      {
+        "recipe": {
+          "id": "45cc0d7e670b4da0af81a32f74ed5a43"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0be422f21d9343d49d65b1096f13d20e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c84aa569765e4e58a33f4626e5ab7120"
+        }
+      },
+      {
+        "recipe": {
+          "id": "0babc91f73784bb4a93765922da9aad5"
+        }
+      },
+      {
+        "recipe": {
+          "id": "e43d54cd85928c262df473285e8e07f07ae26401"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b9067f34701d4bde8890738c4911669f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "cc619165ac134450867a1ea6b125dcb0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "75b2ad123a484e188c164cd82996dc98"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a97ab31059184140a3f22aa4a629a056"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f75d496e60343a9193e99af5c60ccdfeef1b7118"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b7b799feff0840a28a6596cc3d20fe6b"
+        }
+      },
+      {
+        "recipe": {
+          "id": "4a0e3cc5ab594dc588c834d12de5cbf3"
+        }
+      }
+    ],
+    "id": "C15FD40D-4FFF-43B5-BF95-DA5D7BBD7E42",
+    "body": ""
+  },
+  {
+    "title": "Chill out! 11 soups, from chilled cucumber to gochujang gazpacho",
+    "items": [
+      {
+        "recipe": {
+          "id": "fce160c2dc95a88a2bf2515757181cea1a856517"
+        }
+      },
+      {
+        "recipe": {
+          "id": "e1d67cefb941456ab419210ca4440270"
+        }
+      },
+      {
+        "recipe": {
+          "id": "94fb7450656246f0b47fd102b49aebdd"
+        }
+      },
+      {
+        "recipe": {
+          "id": "135f0b262c634714a5cdf7ceabf981a4"
+        }
+      },
+      {
+        "recipe": {
+          "id": "415626b8e7be4f5a8e547d46555057f4"
+        }
+      },
+      {
+        "recipe": {
+          "id": "29368ba0451f4c87b12c402d6db13da9"
+        }
+      },
+      {
+        "recipe": {
+          "id": "ca352e511ef24461a2691c565cebac5a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f437168579d344f1bee7ef129f514ae8"
+        }
+      },
+      {
+        "recipe": {
+          "id": "463d621d52564d6b94085cf9180c0a6c"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a65d1d96d5664551ba26b1a3aa5e3328"
+        }
+      },
+      {
+        "recipe": {
+          "id": "05ea119eebf146b19e2a352cd34084fd"
+        }
+      }
+    ],
+    "body": "",
+    "id": "4A000350-EED9-45E7-BFE3-4C8245FF3D15"
+  },
+  {
+    "id": "F8EF44C2-3FD7-4BBD-A068-704630F74C6F",
+    "items": [
+      {
+        "recipe": {
+          "id": "40e95794cc7dbc515cb411ef8aa6bebcd2640cb8"
+        }
+      },
+      {
+        "recipe": {
+          "id": "930a12f264d5639de360141203f9532cb788529e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "d35a5df95d4f4e85b6a2d81f1483653a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "38a45660ef914a6c9077064eb94f4cce"
+        }
+      },
+      {
+        "recipe": {
+          "id": "4b78966b21564648833eb6735aa92dae"
+        }
+      },
+      {
+        "recipe": {
+          "id": "89cbf6a43b214f629124f1dd7177bcf6"
+        }
+      },
+      {
+        "recipe": {
+          "id": "cf70d5308d15170592a28e86f11512cf1233ddb0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3d20a76b9e9caacb7ae616c13a1638928da67185"
+        }
+      },
+      {
+        "recipe": {
+          "id": "6e660fb21af429dd7b1ca1652c8d8d2952560426"
+        }
+      },
+      {
+        "recipe": {
+          "id": "61098f0adc754654b8221e9c5ffa6ad3"
+        }
+      },
+      {
+        "recipe": {
+          "id": "12e2a99891c8ae39285679d24999ef10ba9cbafb"
+        }
+      },
+      {
+        "recipe": {
+          "id": "2da38967990b0608c3bb9cc4e43014fcdd0e5746"
+        }
+      },
+      {
+        "recipe": {
+          "id": "a9de3e7633964ceca04e8db7913e23d0"
+        }
+      },
+      {
+        "recipe": {
+          "id": "1824a42258924785a0c28b44f025d12f"
+        }
+      },
+      {
+        "recipe": {
+          "id": "780068163a5c13b6df6e909f71ed645e602ac329"
+        }
+      },
+      {
+        "recipe": {
+          "id": "9b243de90d0e4e3ea46fd072fa3434c2"
+        }
+      }
+    ],
+    "title": "Go nuts! 16 ways to eat peanut butter for dinner and dessert",
+    "body": ""
+  },
+  {
+    "items": [
+      {
+        "recipe": {
+          "id": "225a610093484071b9a524029699baf4"
+        }
+      },
+      {
+        "recipe": {
+          "id": "914d47ed87be4b7dabdbdaf8823f3067"
+        }
+      },
+      {
+        "recipe": {
+          "id": "3b05644170b249c9b6de2140ab3f4ddf"
+        }
+      },
+      {
+        "recipe": {
+          "id": "1044d46fe317432da3cec2e49e63686a"
+        }
+      },
+      {
+        "recipe": {
+          "id": "f07454f19dd14c0aaac5e618ed944733"
+        }
+      },
+      {
+        "recipe": {
+          "id": "2ea2e2dd72e4bf81597bac2f759b10a25267b512"
+        }
+      },
+      {
+        "recipe": {
+          "id": "428bd9ee3eb041ab943fb02f367def76"
+        }
+      },
+      {
+        "recipe": {
+          "id": "c45913919dea4299a6d0a11a0db08254"
+        }
+      },
+      {
+        "recipe": {
+          "id": "b740820ed5a525964a72e44a0e3aad9f9eb0f99e"
+        }
+      },
+      {
+        "recipe": {
+          "id": "fa5cceeef1144f71b7b5b4e88ca321e3"
+        }
+      }
+    ],
+    "body": "",
+    "id": "4A71F556-095F-4891-8685-96603F338E2E",
+    "title": "Ottolenghi's all-stars"
+  },
+  {
+    "title": "Meet our cooks",
+    "items": [
+      {
+        "chef": {
+          "foregroundHex": "#F9F9F5",
+          "id": "profile/yotamottolenghi",
+          "backgroundHex": "#20809E",
+          "image": "https://media.guim.co.uk/266825657a291ab9c1c0b798a0391f827b6c53ec/93_150_907_907/500.jpg",
+          "bio": "Inspiration and global flavours for special occasions"
+        }
+      },
+      {
+        "chef": {
+          "foregroundHex": "#F9F9F5",
+          "id": "profile/meera-sodha",
+          "backgroundHex": "#BB3B80",
+          "image": "https://media.guim.co.uk/8fcd77fbd187ada0a96b242cb46c664fc97ad03d/122_1424_2936_2937/1000.jpg",
+          "bio": "Vegan recipes to spice up your dinner"
+        }
+      },
+      {
+        "chef": {
+          "bio": "Simple meals for two, comfort food for friends",
+          "backgroundHex": "#697311",
+          "image": "https://media.guim.co.uk/1be48a7a68323ec4bbc283966538c8da43cc9d81/1297_2620_3325_3323/3325.jpg",
+          "id": "profile/nigelslater",
+          "foregroundHex": "#F9F9F5"
+        }
+      },
+      {
+        "chef": {
+          "backgroundHex": "#BB3B80",
+          "id": "profile/felicity-cloake",
+          "bio": "Her perfect version of favourite dishes",
+          "image": "https://media.guim.co.uk/3db6ad3fa0192c4e7be5c022abdfa240e23e7f0f/1173_416_3790_3791/1000.jpg",
+          "foregroundHex": "#F9F9F5"
+        }
+      },
+      {
+        "chef": {
+          "bio": "Quick and easy midweek family dinners",
+          "id": "profile/rukmini-iyer",
+          "foregroundHex": "#F9F9F5",
+          "backgroundHex": "#C25400",
+          "image": "https://media.guim.co.uk/cfa1641050403a47d1e5358cfa4336b5afcf3332/858_1939_2844_2840/2844.jpg"
+        }
+      },
+      {
+        "chef": {
+          "id": "profile/rachel-roddy",
+          "foregroundHex": "#F9F9F5",
+          "bio": "Britalian dishes from a kitchen in Rome",
+          "backgroundHex": "#9A1E1E",
+          "image": "https://media.guim.co.uk/7d7e9f2039417576643e79ce84dcdbf459786c9a/8_1418_3783_3779/3783.jpg"
+        }
+      },
+      {
+        "chef": {
+          "foregroundHex": "#F9F9F5",
+          "bio": "Rich desserts for a showstopping finale",
+          "backgroundHex": "#68773C",
+          "image": "https://media.guim.co.uk/61930fe3e223f53ed0b982356170394502b3f70a/313_300_653_652/653.jpg",
+          "id": "profile/ravneet-gill"
+        }
+      },
+      {
+        "chef": {
+          "bio": "Brilliant bakes and teatime treats",
+          "image": "https://media.guim.co.uk/58f311e653c649a590aab9a4cb27e2fa4f0201c1/462_1387_2805_2806/1000.jpg",
+          "foregroundHex": "#F9F9F5",
+          "id": "profile/benjamina-ebuehi",
+          "backgroundHex": "#9A1E1E"
+        }
+      },
+      {
+        "chef": {
+          "id": "profile/tamal-ray",
+          "bio": "Get-ahead meals for the freezer",
+          "foregroundHex": "#F9F9F5",
+          "backgroundHex": "#20809E",
+          "image": "https://media.guim.co.uk/9a6a87325a91b7eadd2ea8e896726dd1bf6ff9bc/1764_223_3148_3149/1000.jpg"
+        }
+      },
+      {
+        "chef": {
+          "image": "https://media.guim.co.uk/0ce551abcbce174a23b6cfd9f6740416786af74f/351_1303_2972_2969/2972.jpg",
+          "bio": "Sunday lunches with a twist",
+          "id": "profile/thomasina-miers",
+          "foregroundHex": "#F9F9F5",
+          "backgroundHex": "#C25400"
+        }
+      },
+      {
+        "chef": {
+          "id": "profile/jose-pizarro",
+          "bio": "Simple, delicious Spanish flavours",
+          "backgroundHex": "#68773C",
+          "image": "https://media.guim.co.uk/e41fa5941a2809e55b11bc198db5510a423dd3b6/128_304_2788_2788/2788.jpg",
+          "foregroundHex": "#F9F9F5"
+        }
+      },
+      {
+        "chef": {
+          "bio": "Cooking without borders, from Asia to Africa",
+          "image": "https://media.guim.co.uk/bfd9b76d51ca5c41a440bb76017e7d4986ded8ca/994_373_4107_4107/4107.jpg",
+          "id": "profile/ravinder-bhogal",
+          "backgroundHex": "#C25400",
+          "foregroundHex": "#F9F9F5"
+        }
+      },
+      {
+        "chef": {
+          "foregroundHex": "#F9F9F5",
+          "id": "profile/tom-hunt",
+          "image": "https://media.guim.co.uk/c631e92f28d0d553da35fb8de09ddfa7d0f3b0f2/165_137_453_453/453.jpg",
+          "bio": "Smart ideas to cut your kitchen waste",
+          "backgroundHex": "#BB3B80"
+        }
+      }
+    ],
+    "body": "",
+    "id": "59A9A932-1A20-40A8-AB69-98A15E38BD5F"
+  },
+  {
+    "items": [
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/01/Barbecue-01.png",
+          "recipes": [
+            "3d4beb15d8ff488f8221074c5f66fee7",
+            "a6e9acc57c219be1b653a2e4fb957175a4e00667",
+            "e8920dd647bb93c9fd80870199cb117f7c51d1bc",
+            "a49bed6c8f1842809c6f4776611adc0c",
+            "15f1680fd3144faa90d1740dd503ae57",
+            "b975c0adc82c3b4451db5169e29850ac37009fb2",
+            "11b471e7b8971fde8265942bf846d5eff777c8d6",
+            "fb2d63b7c88a575814abab6f5c400922dfbfbd11",
+            "876da04eba914a604c5bc5e2624f5faff9853f46",
+            "e038bb4f9823baaf3fba884e2bc8d71e9a6e66d6",
+            "4603492d2d087913007359ecb7cebe020474adfe",
+            "4d5c6097511d4e488e9bc654df2c88d0",
+            "3c54a68f1d55e419edb08da8b818ab994004c568",
+            "cedbcd3f945edab2082929cdb32b53be0f60ce65",
+            "5a91d02107db4a6ea529dc0a0b89a49f",
+            "ccb23bd579f79b1201e46acadecacb093161005b",
+            "6cf67584d353c801aa1258cfa892053bdadd718f",
+            "3d84025d2b1e30718ec08c2e8e4fefacf0486daf",
+            "e5fca24035474810b86880d309d9e81d",
+            "943c65918fde4cbf99a8541227b5ad3f",
+            "0babc91f73784bb4a93765922da9aad5",
+            "e433f13dd1564803a3394c4c13e8c5d6",
+            "d31806c08a6546c09c11ae531ffdfb27",
+            "d61fa03c7d88442796f2f38b0bf70adf",
+            "97a7c1019e2d4a52b5f57f427e4c59ba",
+            "fee641f75075417ca9bb50fecdda440e"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#697311",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "foregroundHex": "#E1E5B8",
+            "backgroundHex": "#363632"
+          },
+          "body": "",
+          "title": "Barbecue recipes to make all summer long"
+        }
+      },
+      {
+        "collection": {
+          "title": "Meera Sodha's summer go-tos",
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "recipes": [
+            "fd7898be205a4117873aef801d20568f",
+            "be342980c669c441de28458d78e2301fa1c09ad4",
+            "51ef969b56f24324af9daf332ffe5d52",
+            "1696d3a3bf044ef1b09224e3aca1c9bb",
+            "bb9b2a67ae1c0ff67b7ef6d312d5554effce4223",
+            "bf955f99a4284898b81b37dbba880393",
+            "920c8ac769ed4f70a0987c9bde1d833b",
+            "2d03cf64bd6040d7b449ef2c1b10daf9",
+            "4d21035096164795bad66a26086b103e"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Summer.png",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "title": "Quick meals to save dinner tonight",
+          "lightPalette": {
+            "foregroundHex": "#994100",
+            "backgroundHex": "#F9F9F5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/QuickmealsV2-01.png",
+          "body": "",
+          "recipes": [
+            "a7fce8107e7a451fa8141f1765d4cccd",
+            "cc8f1efc5a8e42dab8a77261f986d690",
+            "134ec6a19ddc4dc8a19c1580a9cea068",
+            "e8ef4798ac04f8d8ac36be3d0781fc2bba07b916",
+            "ef46f1c286ad49beb692575fe4f81077",
+            "09d3ee43629c4e609ee65dcbbbef84a1",
+            "ae16d8b3f09244b8abcf4fbf0a959cd7",
+            "4f095e1b16073324dc3fa69565148b4802338b16",
+            "a59d653efeb9265f77117835ad06161d2bd0ebd5",
+            "a12fffe2a6134d7995548604b70471dc",
+            "483a434939fc4a1ab23d7b50a158a54d",
+            "3312ced26f3544b498bf379fdd38cef4",
+            "4564ebb4c834475f94143f14d966f746",
+            "fc46b66ec5a140ebace4082b8c205b0c",
+            "fc1d001713ea66994f8d58f42d46e065e80b382f",
+            "d23696f93ef96f91d678e3f2a4d1eddde4d42f22",
+            "7fd0e1fe8f30a7d3a9baeeaaf20f805bce05cf70",
+            "0a16888b1852477e9e1b24039095911a",
+            "48d8963c98834b799a8e9d402ff7074f",
+            "e69763fbea8906409fe8ae997d5a033f041c0061"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Dessert-01.png",
+          "recipes": [
+            "fe46eeeadcb54213bfcdb1c99566dad3",
+            "2bcdef244e8b41e9bdde601705ab1775",
+            "2b359390f817442b9f5dc1254f055a3a",
+            "3e4c3bc7940b432a9c064f3e26f984c6",
+            "75d65db7cb454edb89f808d00122d86d",
+            "9540153dfbd54bb1bc46a7cb03cf97ac",
+            "69dd45d7759f4e1bbe4065bead3f65b4",
+            "ce291f3ac04f4f24b7c7d5b094724dda",
+            "c06935772d04c04a18133eeb862b46002a5110ca",
+            "919beb9947ce405c8cbb83411492da33",
+            "4dadc84ec3a94e5cb42f012936e12460",
+            "804ba8d8a9dc4a3694f04d88b3b1265c",
+            "cc4de6d25e1648748b2439406cd17fd1",
+            "7e03032a2a954808a1e5ac949a913e19",
+            "3369930a4a9f4148a42da3fef22f2799",
+            "c15b6aae85a9408eb4c7e4190a02cf2c",
+            "d511c5a90c4065632dfd19a5baf3bbcb1f96bc2f",
+            "fff8220c5018451ab389df91c5352c6c",
+            "6695d32b6a72fad95fe3d53402e08c6bddd2bc80",
+            "5c0bd5c271074898874c6186e47e5970",
+            "fdfb1d858e144235a03ed53b42fe6097",
+            "6245fef223c215fa15d327bd54ca8b59dd6c527a",
+            "10dc079cd10a442d92d36e1ccab7828b",
+            "b4ae157c670a48548ae90d418101fa13",
+            "80425f476ed2425fbeb0485257774268",
+            "1824a42258924785a0c28b44f025d12f",
+            "f50b163e12af483bb84a1f70c78fe216",
+            "53df815ab6114e309d7466d09bb5bd79",
+            "06e9b6a7061e45b2be36efb0a9916db6",
+            "87b508e064ef4822b36d91422711b645"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#F0C5B4",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "foregroundHex": "#603D2F",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "30 desserts to sweeten summer"
+        }
+      },
+      {
+        "collection": {
+          "title": "Bright and beautiful salads",
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Salads.png",
+          "recipes": [
+            "7f87d70c8aac44eca5a8364a3ed18626",
+            "631fcde51e8d40c2a874ab73662f73da",
+            "2b8be8cae04c277876cd616de1003577398196fd",
+            "a60bc181db879efb41b147a09e984ac6b3b06ca2",
+            "7af10c9ee21a46429ddcffa3a4aa6b0a",
+            "42060b0763cb4b679a81cadc7837d11d",
+            "15c06496cf454c4891e189f41180a321",
+            "c4d4db23570cec6c373ab93554400c12ded0bd64",
+            "861b0a84b04043bfb3a298b3256cc22b",
+            "ed9e8d796b2c4f739e659bcf80d4e9dc",
+            "764f14c55ed648bea217c259dd396ee3",
+            "8b29e4f2b6e94934bdd0f8ee21898983",
+            "f3013aa16b0c4e72b28f0e9dee5c1a6c",
+            "dfdd6e138c2444499b13408536fb044e",
+            "30687939426d454db1141026759e5c80",
+            "ca1eac2b689f4bf9aef578243911ecf7",
+            "c9bf9f26e5704993863a4990ffcfeef6",
+            "0c9ab7ca80d34b908ddb4c54688edc47",
+            "cc619165ac134450867a1ea6b125dcb0",
+            "e0c8ab0ca1a6462bab4f69f7868f8180",
+            "c12943cbe95958f61fd1b49f478a89015eafba07",
+            "e51732e5ee29877509f9c69648fc41c56a5c2790",
+            "34e4ba997ccf46fc9da2e66af2ab1b13",
+            "552d8a2ecbb74f10a0ef46c2f34cfb9b",
+            "d17826ba737f1df129e61d27ac53d3a56b8459f6",
+            "425f44d552d441849e645f88e71976cd",
+            "d603aeb232faa9a5aa458bd91e5c730bc846ff2e",
+            "09ec79051caed2b517c47f57837319b742e86201",
+            "6f2052347245aef6e18cad3a7ec4572798b00906",
+            "0babc91f73784bb4a93765922da9aad5"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Pasta.png",
+          "recipes": [
+            "8a005145b6c34915a55a443500182cc2",
+            "eb9a751972eb445ea26c42b7bd65a285",
+            "2fc51c91bad748409e5b31fe1b05c411",
+            "37e7319308424782ad380c70ffce013e",
+            "2805b47ef1f34b49a0a8354e1dd37630",
+            "797870b996cd4904bd428db9a847d63e",
+            "1d917ffab8c44cd1b46e2d6063b40025",
+            "30687939426d454db1141026759e5c80",
+            "f64cd357bb5adff003df3a60dede2f3eb2846fbf",
+            "71f1a82729d848238ac0fff658b2320a",
+            "f8525fdf1e524edca3f0b0325bb13e65",
+            "0a16888b1852477e9e1b24039095911a",
+            "2ae14707f7354d549031c5532b848262",
+            "3f3410b0edae470abb76f5f48c02e8f4",
+            "df2f49adc5b444b590e2047ceec15186",
+            "e3049befe51747269ece05a767a76c32"
+          ],
+          "title": "Summer pasta is the best pasta",
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Cheese please",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#C25400"
+          },
+          "body": "",
+          "recipes": [
+            "8876ac2ae8511aa6bbd0e2d4de769ed011ed612f",
+            "100873ba77a447a38ae1dfde4039d781",
+            "6b16db5f13bd47f7930782a93caf5f9d",
+            "844a363b2441405dbb73f30815b8f54b",
+            "f5982eab796442058c52c002759cbdaf",
+            "77b2b12702624585a1d4438577bd5f38",
+            "134ec6a19ddc4dc8a19c1580a9cea068",
+            "8a005145b6c34915a55a443500182cc2",
+            "948dd2964b084d32baaa97227d166bee",
+            "fee631dc3ab2485d8a9e01ce797251ec",
+            "501bf18b352a5eb54531400d861eb3f424cf93d7",
+            "74a4306dff634b84ab1b769601c910e2",
+            "08a563999346413cb901224b70efafd5",
+            "53a18f1139814894906599012ecdcdfa",
+            "dabc8c0658ef4fa19d0d5156edde733b",
+            "44b492418d524f919890d648b3635d64",
+            "a2ddccb3976642deb5d3a69fdd5e4bef",
+            "85d08351968c4907bc1bc4d2c2ad3073",
+            "21ad8ac86ca24905894f806345c7c5b7",
+            "f6cb4aa0374a472f98645fa451498f82",
+            "072d9bdc13df433e87341fccb3ae7b47",
+            "e350b2e7a9de47879600cfb3f1a0db30",
+            "222f8343e7f94056a244f43ae1422c4b",
+            "225a610093484071b9a524029699baf4",
+            "053c24109aabcf59f3d93b0b59bf8bad442559d8"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0CDB4"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Cheese.png"
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/01/Barbecue-01.png",
+          "title": "Vegetarian burgers to make indoors or out",
+          "recipes": [
+            "e6bc8c093b46446bbe5d974d6209da64",
+            "cedbcd3f945edab2082929cdb32b53be0f60ce65",
+            "ccb23bd579f79b1201e46acadecacb093161005b",
+            "23fafe12cd9a0990728aa5b563fb8fe47657cce5",
+            "b2d78f9268fa4da9a0f3002a3438fa84",
+            "8f396e4d164a44028f098015d1056845",
+            "fad5ab9114179a90f0a03ccd790f7e7f1dac1a12"
+          ],
+          "body": "",
+          "darkPalette": {
+            "foregroundHex": "#E1E5B8",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          }
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Fruit.png",
+          "title": "30 summer fruit recipes we love",
+          "body": "",
+          "recipes": [
+            "3a562f0047f84dcf8f9140501c887e1d",
+            "08a1b15ed8be46d3b8e9c1040a3da7b1",
+            "c15b6aae85a9408eb4c7e4190a02cf2c",
+            "59892faa02f34eceba887167d6046be7",
+            "30148d8c4fab498cbf5e1fcf68cc0c83",
+            "b0071a22d51e425797cfcdc1b039ceed",
+            "69dd45d7759f4e1bbe4065bead3f65b4",
+            "253e6a0a41e94000b226411f1869f2a8",
+            "7e03032a2a954808a1e5ac949a913e19",
+            "53ada312c49b433aa1e9b141e832347d",
+            "351ebc45ac8d746769f60f7e4f92b4f94cc0f03c",
+            "e715813cc0ee40d1ab407c331b357358",
+            "1f6bea3151fb467ba86fbe79a54e8211",
+            "bbe9e0b547f24cdbb5bec3da9501e33d",
+            "03dd43bc16f64a19a5ab61d9d43afd9f",
+            "f07454f19dd14c0aaac5e618ed944733",
+            "1fbd341fd3cf4a39aaff504dbeb741f0",
+            "472829d890484606be04e4ce1142daa6",
+            "0b2eefce2f5d4454a22c3a1c334a81be",
+            "58c30a2d080f14db9799e5b6704e8cf7abd2d592",
+            "99bc90d800cd47c18860259929138d41",
+            "ebd766be736e4e6cb269ca7f51b7ef0a",
+            "15453b8a01c940cf9299f102386530ff",
+            "108aa6c0b5ef452c9078214fa9f6b41f",
+            "42b1652718f2464387fba8a9099a285c",
+            "caeedc432d4f4087b8f926c4f67323c6",
+            "faab2145149c43c49f49f017aff06923",
+            "c45913919dea4299a6d0a11a0db08254",
+            "3c7af9ccde4645e0932352e01eed895c",
+            "04c2f710017e4c3e9f50a7b6b3a092e6"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Fruit.png",
+          "body": "",
+          "title": "One punnet of strawberries - 19 ways to use them",
+          "recipes": [
+            "f47b7ee13da344b0b7989cf132d8c985",
+            "99bc90d800cd47c18860259929138d41",
+            "8369380bc2eb4c5ab6cdaf13cc3bab6b",
+            "b7f25742a81f4e3780233baa8d3be982",
+            "69dd45d7759f4e1bbe4065bead3f65b4",
+            "48ea536a735642a19106eca13c2bdf79",
+            "75ce7752301b4283b2eb79423da44b95",
+            "9c1a4c79e7e4433e97d6002b98cf0b3a",
+            "919beb9947ce405c8cbb83411492da33",
+            "57fbbe7adddf4cd4abd6e52ca81985ca",
+            "42b1652718f2464387fba8a9099a285c",
+            "15453b8a01c940cf9299f102386530ff",
+            "c45913919dea4299a6d0a11a0db08254",
+            "3e4c3bc7940b432a9c064f3e26f984c6",
+            "382456d4fc05417baacb67f0a3fbf2c9",
+            "a8d7605169b94d5f8c715abae1018011",
+            "9aa87a73048f46928104bbf9e50e3431",
+            "45afd2f79fe4411eb8fa802e5523a4aa",
+            "9da424b8c6d84d1a9fd9e61ff781b018"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "0be422f21d9343d49d65b1096f13d20e",
+            "e98b73e3fc154ecd97676fa5bc759998",
+            "e9f5fb967fbe4da5b7f3147f8ed3cd6e",
+            "74e63a26ff278f9ec0c50b5a92d7c87baf6270e1",
+            "c27778c7d1744166a6c4d46b59c1d35c",
+            "df7509af962c4bb5aec3164695217c52",
+            "72caf2e4-af4b-4f7e-9ff0-739115e91244",
+            "9ed905082e4a4d9282f353552be2a27d",
+            "8f96a8fca17e421b93560b3f18bc0ad2",
+            "5b4a19628373459ab3cadbf808d12636",
+            "2c38da2d9b4349c4a31f6ace1c2ab498",
+            "40e05b4fda1642ddaaaffcc79eca7120"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "title": "Lucky dip: 12 dunkable recipes",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Summer.png",
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "title": "Easy chicken dinners",
+          "lightPalette": {
+            "foregroundHex": "#C25400",
+            "backgroundHex": "#F9F9F5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Chicken.png",
+          "recipes": [
+            "0830ff91f3274f91a058ae0183f726da",
+            "0028e398053d4e959a01799fdce9d794",
+            "1e7aa8fefcb94a32821b4213655e30e7",
+            "161869b763f74f34a8b3da9b9977726c",
+            "844a363b2441405dbb73f30815b8f54b",
+            "a95199f8c4d044b69d7be979e1f61d37",
+            "da20220d44424bcdbf3c2e18a319cb3f",
+            "dc96426af1294a42bfba71ecbfa9963d",
+            "0e80764ae54649bd97603b005a0f45d6",
+            "3cbbb6f0875e41b9adb90695c3c03be1",
+            "8cc8cfcc79eb4ad9b919dd7ef6bff17c",
+            "0a1f09fcf3844da7a2c387221a21ec77"
+          ],
+          "body": "",
+          "darkPalette": {
+            "foregroundHex": "#F0CDB4",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "recipes": [
+            "9dcbcfa7903b4590ab192e0e683e706e",
+            "a417693ab1f6921a8aa221fe54f5137cbcc96f95",
+            "753448cdf60a4a689379daa859f62cee",
+            "12e2a99891c8ae39285679d24999ef10ba9cbafb",
+            "0709f87b7cc1428db8c85d75aa198002",
+            "0d3437e9613d5e27eeb7afa3523a2af16953b917",
+            "351ebc45ac8d746769f60f7e4f92b4f94cc0f03c",
+            "61bca7b92d724645b5d0c2584f89b983",
+            "b87b94e8c9624ba28dba3c3804b29280",
+            "7e8dc9f895da8d6394fc71c5d53cfc12be38891e",
+            "d7b2e130b1b84905becf99f631871ec2",
+            "8cc3c7bdee624eda98ff260b271fe924",
+            "ff9f334333073d9f66f402f98d9a1c42a36bc045",
+            "17da6e3aab3e4aca92fbb528fca78615"
+          ],
+          "title": "Benjamina Ebuehi's top weekend bakes"
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Cheese.png",
+          "recipes": [
+            "4ca9acabbce74970807bde86d8360bef",
+            "e6f4772a89974ecfb7554ad65aa3b175",
+            "a72d69df4b45422fad1ab234f0011a97",
+            "e9b460dc9ebf3170b7badeafac6fb50a15971077",
+            "a6435ec5432841dfbeb5b17f045f5e49",
+            "b887931481e44594a14581cf848f71b9",
+            "0620e75b44b04112bc58a5349d68c86f",
+            "f17e091420734c40aaf04b186225d04b",
+            "0e80764ae54649bd97603b005a0f45d6",
+            "39165480d95e4736ac5c29019b83664c",
+            "8888a9c8d0934180ae92574a92b4de3a",
+            "0eefe7fe111844388f2c2471a463174e",
+            "051144966d534670907b1212a8bfa664",
+            "222f8343e7f94056a244f43ae1422c4b",
+            "21eddd0a0a27e051487d1ccf9e8fcd410b886859",
+            "acdef41998c845c98388727eab754221",
+            "45cc0d7e670b4da0af81a32f74ed5a43",
+            "3b4324e4b0ec47c199a35f0c75713748"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#F0CDB4",
+            "backgroundHex": "#363632"
+          },
+          "title": "Top this: our go-to sandwiches",
+          "body": "",
+          "lightPalette": {
+            "foregroundHex": "#C25400",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "recipes": [
+            "9dcbcfa7903b4590ab192e0e683e706e",
+            "351ebc45ac8d746769f60f7e4f92b4f94cc0f03c",
+            "61bca7b92d724645b5d0c2584f89b983",
+            "a417693ab1f6921a8aa221fe54f5137cbcc96f95",
+            "753448cdf60a4a689379daa859f62cee",
+            "12e2a99891c8ae39285679d24999ef10ba9cbafb",
+            "0709f87b7cc1428db8c85d75aa198002",
+            "0d3437e9613d5e27eeb7afa3523a2af16953b917",
+            "b87b94e8c9624ba28dba3c3804b29280",
+            "7e8dc9f895da8d6394fc71c5d53cfc12be38891e",
+            "d7b2e130b1b84905becf99f631871ec2",
+            "8cc3c7bdee624eda98ff260b271fe924",
+            "ff9f334333073d9f66f402f98d9a1c42a36bc045",
+            "17da6e3aab3e4aca92fbb528fca78615"
+          ],
+          "title": "Benjamina Ebuehi's top weekend bakes"
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Tins.png",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "recipes": [
+            "7af10c9ee21a46429ddcffa3a4aa6b0a",
+            "01caef6dbee94966b9fa2dbf3e6c78cf",
+            "e3049befe51747269ece05a767a76c32",
+            "f55b8d80d7d04e22b41c81080ee4465a",
+            "bcec278ba9a947d5a2a4b3ad1237b613",
+            "2fc51c91bad748409e5b31fe1b05c411",
+            "8d4b9b14d6c4408ea2fd2ba4d1ea67ca",
+            "ec73023b64bb4798982f124bd792a64f",
+            "cc619165ac134450867a1ea6b125dcb0",
+            "6d8bc60ccc0c449288bff905a5829608",
+            "ee63e93dff33429d81e766ee097083b7",
+            "33bc7489db482d4dada3367faafe722b5a5f89e8",
+            "2a957e99a498480591623479fffd2948b7363cfb",
+            "e07b09b8c7a94572a627fc31bb0cc178",
+            "ac4cf214126145569e85707f722742b0"
+          ],
+          "body": "",
+          "title": "Tinned fish: your easy meal fix",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Summer.png",
+          "recipes": [
+            "831951e185ea4a01923e154abf335b98",
+            "6fb919adfe8c42aa869a37ba724ed5b8",
+            "dfd3b95e607a2370c3916a6c1c3cb215f7f1b4cb",
+            "b0c84c2ced5e4f5b8e97d35bd68ef990",
+            "fb8834b382a35f785008ef203ff3e9ba8ece9e3f",
+            "f6e81c593a404d53cbc7007be6363d43b1efe7ab",
+            "a32e52b3ac3b4f6a8b35b124e8e5b305",
+            "74e63a26ff278f9ec0c50b5a92d7c87baf6270e1",
+            "f9e002cd53d939a62ce4c1ca03593ba973642e87",
+            "b745e72ec8ac415b99a764d9b704c488",
+            "b96e0c72b3633a2d6caf289b1c153bf0c9fdeaa5",
+            "ed8775e2b0ac46a6aadc6d0b83c01157",
+            "d63112a6c3474dbea82e956faae0329c",
+            "708aad555a89dd1c980ef048acf1bbf3aaf4e140",
+            "dc9eb2c991fb4b448ae350111ef27878",
+            "5f97dd09ed504ffe92eb446082fa365c",
+            "d3197693daf948f49865aae9aff5d604",
+            "df2f49adc5b444b590e2047ceec15186",
+            "6c082360ac944d65a8dd27eb4650eb83",
+            "631fcde51e8d40c2a874ab73662f73da",
+            "ed9e8d796b2c4f739e659bcf80d4e9dc",
+            "8a005145b6c34915a55a443500182cc2",
+            "dece8d7d852f19bbcd8caf8830aec0cb980ab39d"
+          ],
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "title": "23 courgette recipes, from curry to cake"
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          },
+          "body": "",
+          "title": "Thrill from the grill: 14 barbecue sides",
+          "image": "https://uploads.guim.co.uk/2024/03/01/Barbecue-01.png",
+          "recipes": [
+            "3d4beb15d8ff488f8221074c5f66fee7",
+            "317dbd7c25e646868bd0bf8287ce311b",
+            "7935cd8b94ae4d0195e74ebedd493762",
+            "876da04eba914a604c5bc5e2624f5faff9853f46",
+            "f5b6e36fdc984a268df69a96a883bb00",
+            "f3013aa16b0c4e72b28f0e9dee5c1a6c",
+            "e5fca24035474810b86880d309d9e81d",
+            "e6ac764a80ab47fba414421e375a8867",
+            "22caf526a0bc4ec5996a4eb472683e45",
+            "ad9404a1ccc447f9990a0376b324c30b",
+            "00caca054ba041bb90425922fb10437c",
+            "06775b0f25584987b706f5ac7e0167c5",
+            "d31806c08a6546c09c11ae531ffdfb27",
+            "5c1ddba58ffb42e1a24d8776eb4338fa"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/TVsbacks.png",
+          "title": "Winning TV snacks",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "recipes": [
+            "c038d345cb13418aa5b0d123878f6fe0",
+            "a97a786e02df426fa1f5c24497b759d1",
+            "39e9182614954d9a91209823820b4fb1",
+            "ac5e4320d9314095b61667840acaf8c5",
+            "0be422f21d9343d49d65b1096f13d20e",
+            "e752c4dccf4e428b9b771b6a445ad4b8",
+            "6290e273cf6a4509b744bde946cc2594",
+            "37b8c522b93148d88174c5a75701ff83",
+            "85a183e86f8a424aa3c44e7d4b909a7c",
+            "2c38da2d9b4349c4a31f6ace1c2ab498",
+            "a33073175fed49619fa523835b490c38",
+            "8c724541fefa427f9f22c146236e6ec5",
+            "74c0b074c732888dde03f296ad5a89a5cdfc89cd",
+            "a9de3e7633964ceca04e8db7913e23d0",
+            "28a409345cd646289294e0cbf4abd532",
+            "174140736da34afe99ad122ea5b17fe1",
+            "106aa55b48724b13a2bfc1c0d1376b28",
+            "fda233516f8641e8a857e52e6102e145",
+            "e9f5fb967fbe4da5b7f3147f8ed3cd6e",
+            "061ca3366cf04466bfb57f55c34bdcab",
+            "09944c8e45824c668b9509efc971b1bd",
+            "109ecc34092e45c788ea070658bfd772",
+            "463c811628e54db28f2ae8691cb2fa29"
+          ],
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "6290e273cf6a4509b744bde946cc2594",
+            "c84aa569765e4e58a33f4626e5ab7120",
+            "0620e75b44b04112bc58a5349d68c86f",
+            "54cbc7d60262411ebca8d8d475ec6c8a",
+            "5b246a5026cf4c45ae650a50d8630171",
+            "9b20d0e696d74a81bbe1059fe3c74ffb",
+            "5abc206b6da432365bded12f3b29a2aa02b08b51",
+            "51e387eff27972c531830ff262bf755c99280b4e",
+            "552860c9130644ef90d0aa0a4a68fd63",
+            "a8d61d27ca584ea2b462bddb8b5795c8",
+            "e9b460dc9ebf3170b7badeafac6fb50a15971077",
+            "e517d8341235448c9b048850aa2a3700",
+            "134ec6a19ddc4dc8a19c1580a9cea068",
+            "b379132c5ed3442cbd093a86f3a0c4ca",
+            "6ac2a622d20a47d5827c74b77e1454d5",
+            "2c38da2d9b4349c4a31f6ace1c2ab498",
+            "35aa7251e862f24beee09b75502f24d2b423e1bf",
+            "9897656eedc44650845168870ef4d781",
+            "d35a5df95d4f4e85b6a2d81f1483653a",
+            "28f8764154064979940a5d743eab279d",
+            "572c49a9fa854fbbbf651c3a8ca4a4c5"
+          ],
+          "image": "https://uploads.guim.co.uk/2024/03/21/TVsbacks.png",
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "body": "",
+          "title": "21 recipes to eat with your hands",
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          },
+          "recipes": [
+            "3a65f8a9f5f04e158784a05ec919ec41",
+            "71a73fa7729a4968a5203109c015a404",
+            "8a4e3b3fa9a2439d9f41038894c1822b",
+            "cc8f1efc5a8e42dab8a77261f986d690",
+            "c4d4db23570cec6c373ab93554400c12ded0bd64",
+            "c2eb7c2f7f3ae53d22b58e662b9436b557e63ef0",
+            "f5ccac52eda24a6da41ff1b4af3d5aab",
+            "ccb23bd579f79b1201e46acadecacb093161005b",
+            "c5f80614705c498f9478336180617bc6",
+            "98b087da1cb241b51d6bf3541350a6e233d923ea",
+            "586d0901ad3f47efa4b28610226e9a72",
+            "9d356c97d485419082e33ea27f233e9c",
+            "404ddc626ac047fc81b3d3588791e887",
+            "dc9eb2c991fb4b448ae350111ef27878",
+            "64a9ab4165dded6657d71976f300671523021fef",
+            "920c8ac769ed4f70a0987c9bde1d833b"
+          ],
+          "title": "16 vegetarian dinners to cook on repeat",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Salads.png",
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          }
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Summer.png",
+          "recipes": [
+            "32101002c7004128afcaac51e8473dc9",
+            "a32e52b3ac3b4f6a8b35b124e8e5b305",
+            "ef3ac5549f6d04f21d19d46ba7d348a5fddcfc99",
+            "c2eb7c2f7f3ae53d22b58e662b9436b557e63ef0",
+            "11b471e7b8971fde8265942bf846d5eff777c8d6",
+            "a78f77f525d24cac8ce300decc80e2b6",
+            "96ba434ec39d494ba50aa3f7372f079b",
+            "88aa338c846e43d1a8ebe63b284c59ef",
+            "f3e0786a10834b95a1ff4def89e0c849",
+            "6e440c93d87b44f1a33e6448cd5aee7a",
+            "e0c8ab0ca1a6462bab4f69f7868f8180",
+            "4429d7c15cfd4b7f8068cee88911fc4b",
+            "fb8834b382a35f785008ef203ff3e9ba8ece9e3f",
+            "1c72c3946ce0493781de48e32a033e57",
+            "2ef25a2cbe8bd5b38225a91ae5cbb437753ef4d5",
+            "fa95e2321f45e62543ddd5bf3acd7538608a2d86",
+            "e1d4cb940c3a426eaee1da51916be253",
+            "2fbd5b7e8f61a340c6652b1323b48316440d98d8"
+          ],
+          "title": "Summer lunches to take your time over",
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/MealsforOne.png",
+          "body": "",
+          "title": "Dinner for two",
+          "recipes": [
+            "7f8705ca56f94c78a372191c88147b08",
+            "47cf88cc4d1d44f284c4c4c0116180a5",
+            "d6e7b6baa80c47b7b0cfeea5c5783264",
+            "457f392c2e264a23b8612f9746bf2864",
+            "e781a21adb6cb519bd463c54495cd584947a7623",
+            "27cb7d6ea380473bb30d155af9647755",
+            "ad904ffea0276dd6182a4ecacf416df25f309835",
+            "b5834130e0f54ecc9d6b212dccb7ae92",
+            "f6239f5e63bc6755cbc0156f01d7831e25bd8719",
+            "09fbd23c29be4545ba22c50e58222948",
+            "d713c4701db7ac964ba314c53ec42256d7153b56",
+            "1e4821cf94504087972e8d7937180818",
+            "0551534c8d93e8da7bb70553b10fa0d0f62534a3",
+            "686eda1746244637a4296530e71f612e",
+            "a36bdfb3250ab1290f3c3311513fda93f61c8b8f",
+            "7f2308014cef4f3ab4a20898c9edc0ce",
+            "4bcb49d16da34b09a0624a3635be24e7",
+            "2a957e99a498480591623479fffd2948b7363cfb"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Traybake.png",
+          "recipes": [
+            "aa3a6f9751b34f5d9bd8399e9b9f96e1",
+            "gu-recipe-52cfc990-e769-4187-baa4-3c6a19e68df7",
+            "d2c8c4098a4b93d8b7e6460329fa1cfa6fa6c38d",
+            "fdf11b39bdbf464ba6683a59eb664778",
+            "867e890c2c8c4350857becd7d1946ce6",
+            "7b723fe7bceb4ee69a3ccb1a27fc1392",
+            "b141581a513978e38b70ebf1b5c311c9a6a49023",
+            "4803a9eeefc190241cb3655c6b64b2425db3305b",
+            "351bd9a106123a9af09927002529bd8bb7ceb8ee",
+            "1764aa9388ad422784d7a6a750a1b4b9",
+            "86c121390629889a521e4d937a0fff5ce6670217",
+            "gu-recipe-5f950fdf-db8b-4073-8372-162c28783b84"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#FCF1F0"
+          },
+          "lightPalette": {
+            "foregroundHex": "#801919",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Curry night!",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Summer.png",
+          "recipes": [
+            "ac06bdce99264032bbcdd435f6f62413",
+            "88d2a6799daf102324ee4be4b9c72f40501c791a",
+            "631f035d717245da8988e978ad294356",
+            "864a34dd88574570986f59fad6a7015d",
+            "c5f75dc02fc44671a554b3a87a5c738c",
+            "6e1a24d8c5c1495592e10cf8427fa3d9",
+            "1276e4f8d40afecc6754fbecd8a2a62ce5f19501",
+            "c717b9799ebb4831b062339339fdea32",
+            "4a0e3cc5ab594dc588c834d12de5cbf3",
+            "75520162615b4e498dcd5948dcb340a0",
+            "927a4d51bd75ab8bebc161a70aa869521a0a7c46",
+            "a3d06d0128c24f19b6e069abc76e2702",
+            "85e350f51dfd4019b85dbd2e3622d87f",
+            "09863d3f7c004a8c8c73980d385f1347"
+          ],
+          "title": "Savoury tarts to entertain",
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0BAB4"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Brunch.png",
+          "body": "",
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Brilliant breakfasts: 24 ways to start the day",
+          "recipes": [
+            "48666b53790e46d3aeac405188092730",
+            "29653461e2d2458e8e83c5675ab59fb8",
+            "08261d3973fc44e5ad30a7ac6425bf22",
+            "820c43999c404e9d955859c3faa05184",
+            "7ac273f4a57f04844b9e2ffab02520edb410470b",
+            "3b100bf5696d4e2b9a8c6171dac2c0a8",
+            "d8f79485b17d4011a3e2a536c1f198b2",
+            "922b79afaa9f48b3914553b7793bf544",
+            "ae5b241e81b248519553b5b2dae42eeb",
+            "210a3a69bf6a45849c3ac952c762b719",
+            "2d4d657857ca4d5f850454beecc108f6",
+            "4cf904b8d70a4cdbb7bc8ad4c5470531",
+            "a8d76924fc5b4935838b9e99eb74558e",
+            "a30de1389c634121b778faaa3c732ae7",
+            "6544a5b5e15e4fe88445d3db95574d8c",
+            "bf2f8398bfce4f80969fef48b04924c7",
+            "54061f5f835e404c91fe60b5b0a556bb",
+            "f9c5655e107046b4814d63fdaaf666b4",
+            "9d404fcd6aaf41d6ab4b3ac497ce085b",
+            "cc7ebf2add382bd68e674c76702bfad799680682",
+            "6e52c591dadb4f59817f1c0ab61821ff",
+            "d1dfd432b7b346b480dd58d50373a9bb",
+            "5371150a384f4acf9b4649057c7c90d7",
+            "9c3748c59210463fab6c64e633ee6264"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Potatos.png",
+          "body": "",
+          "title": "15 ways with jersey royals",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#99614B"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0C5B4"
+          },
+          "recipes": [
+            "9d8fdf9be92e64da631906a1ae1dd407bb4b53d0",
+            "3b967501991f4b44b5de477c357bf378",
+            "654ad8302ff04170a3eedf6a97e3a175",
+            "81563cb5ad0546b3a577ad20eaa3bc29",
+            "a66d0010de8a4ab293a956d1f6c0fef4",
+            "47a0f80accf4460db719819af8756984",
+            "6aa6cecca87744d9915164e80a460b83",
+            "f4dc1211b42b419fbab45154132c428a",
+            "f88faef3687b451f99f99bc028badf6d",
+            "d23696f93ef96f91d678e3f2a4d1eddde4d42f22",
+            "811d2f1f642892b900a306bdbeb7fcbf25477cba",
+            "83fdd065e98f41a2a672b3f745ec53cf",
+            "ca02ef069cb84dccaf21b4938094b2c1",
+            "e433f13dd1564803a3394c4c13e8c5d6",
+            "d56ebdd33b6f474a978988f2ad684186"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "body": "",
+          "recipes": [
+            "c45913919dea4299a6d0a11a0db08254",
+            "30148d8c4fab498cbf5e1fcf68cc0c83",
+            "c15b6aae85a9408eb4c7e4190a02cf2c",
+            "3a562f0047f84dcf8f9140501c887e1d",
+            "59892faa02f34eceba887167d6046be7",
+            "15453b8a01c940cf9299f102386530ff",
+            "f07454f19dd14c0aaac5e618ed944733",
+            "08a1b15ed8be46d3b8e9c1040a3da7b1",
+            "69dd45d7759f4e1bbe4065bead3f65b4",
+            "99bc90d800cd47c18860259929138d41",
+            "3c7af9ccde4645e0932352e01eed895c",
+            "53ada312c49b433aa1e9b141e832347d",
+            "8369380bc2eb4c5ab6cdaf13cc3bab6b",
+            "04c2f710017e4c3e9f50a7b6b3a092e6",
+            "e715813cc0ee40d1ab407c331b357358",
+            "42b1652718f2464387fba8a9099a285c",
+            "7e03032a2a954808a1e5ac949a913e19",
+            "faab2145149c43c49f49f017aff06923",
+            "1fbd341fd3cf4a39aaff504dbeb741f0",
+            "1f6bea3151fb467ba86fbe79a54e8211",
+            "0b2eefce2f5d4454a22c3a1c334a81be",
+            "108aa6c0b5ef452c9078214fa9f6b41f"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "title": "22 ways to celebrate summer fruits",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Fruit.png"
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Spring.png",
+          "title": "29 ideas to make the most of asparagus",
+          "recipes": [
+            "408b8fa0a1e14b0daa6833e390df009f",
+            "c4374ab52a93bd6173d47adcb6bdfc4807c3b060",
+            "e69763fbea8906409fe8ae997d5a033f041c0061",
+            "f50e906f923f4c79b7b09dcb03a7d4ca",
+            "ff61dd01e7044ec495238a92d0562789",
+            "6dfc1232f2a250095601c562bd7baaf5d949cdb6",
+            "ff84c58035b67ddf3deb4ce4f09dd4a7d1244cea",
+            "e43d54cd85928c262df473285e8e07f07ae26401",
+            "5f2b46fb40da4faea315915f1a6adfe41b59b672",
+            "468f52d3d966482185b5f17d914de720",
+            "49001c8cba3142daadac16e630f1d51c",
+            "5cfff7528931d9ebd51f6da85c0768e002627587",
+            "9689f3fe3a70637e399dbc1b238bdb059a20b4f2",
+            "34eed5d4bf8843859613a528119c1775",
+            "3c54a68f1d55e419edb08da8b818ab994004c568",
+            "e082925d150249acaad409d3bdb4ad6e",
+            "3315619221132ef96eb36bcc4cade3be38637a0f",
+            "927a4d51bd75ab8bebc161a70aa869521a0a7c46",
+            "6bac904f73d943eda94c09d12dd96ea9",
+            "6e3a6e757167462ca5012f027678eccc",
+            "c314bf18138e4e8e8429023bd4d006a8",
+            "db524fa161833fdf25e3b4021e919ab4efed1507",
+            "52e3ae289b0c42838af9951249b5d97e",
+            "de7be5635abd4e1d9cb0f123cd4880ca",
+            "1276e4f8d40afecc6754fbecd8a2a62ce5f19501",
+            "0feb8601b5d6492985ab63e710c2e97e",
+            "41c0d0e06179425bbb8317ad40a529be",
+            "0c027207d84a21761188d7cedfc0194d17a9c844",
+            "c0f97ac631914f4ba0a0f0b8542c4d91"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#697311",
+            "backgroundHex": "#F9F9F5"
+          },
+          "body": "",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Tins.png",
+          "recipes": [
+            "9a5becaae65d43e7a007a94580f8a315",
+            "3bf279d1d3a64270a4ae3d2f8821a60f",
+            "f8b715f18dd84d928fe3d3f64bece349",
+            "0490c95e6ecc90ed8c4c289f9a4408e88b846238",
+            "715397dd04154159a37d6090561ee00a",
+            "f9be73f277a447e9bebcf73317bc7e45",
+            "60a386c6af3149178c5a062752dd1d93",
+            "ad0f3d98064c4983915333efd236ca84",
+            "c906c46aed54f57a4b0bf49acaf16a9ef3e82f5f",
+            "a59d653efeb9265f77117835ad06161d2bd0ebd5",
+            "c038d345cb13418aa5b0d123878f6fe0",
+            "77699f7d7aff44c9bd20822805f4a9ae",
+            "a558eaa11ba6f1a84f0b7bbc2711b21057b023ae",
+            "d252d288938dcaa0da1dea32951fa00f3d1491bd",
+            "745cd3c5ae0a19e01431749116737665a50c0e3e",
+            "55973e4e4a354ca59e263f8b507af0dc",
+            "f9e002cd53d939a62ce4c1ca03593ba973642e87"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "title": "17 store-cupboard meals",
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          }
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "804ba8d8a9dc4a3694f04d88b3b1265c",
+            "5c0bd5c271074898874c6186e47e5970",
+            "f0080d3795faf7393b21fe154fee66ec0595b01b",
+            "440c68d487a241459a85fbd5c09870f1",
+            "693e115c3c2040079174d4cc614a5b5b",
+            "ae0fffd6821b4a54b45c6c73d11d6349",
+            "ce291f3ac04f4f24b7c7d5b094724dda",
+            "d511c5a90c4065632dfd19a5baf3bbcb1f96bc2f",
+            "b01eeb19a4a2792cec0cbfc6bd38e664470e403c",
+            "65c3417c993f4c67aedb9ebeb9b4e529",
+            "6aebe20755a92b814d121e1412bd7c88c166ca83",
+            "70265dd004fc4b03a5cb50f972fe13f5",
+            "fff8220c5018451ab389df91c5352c6c",
+            "48ea536a735642a19106eca13c2bdf79",
+            "e10c8496ff7e4cdfa8963c77f0bf262d",
+            "4dadc84ec3a94e5cb42f012936e12460",
+            "b0d2368f82ed4a64be35dc9f6d3de41b",
+            "88f8038112764daebbcd103a3966a5e1",
+            "cc4de6d25e1648748b2439406cd17fd1"
+          ],
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Dessert-01.png",
+          "title": "Desserts to make this weekend",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#603D2F"
+          },
+          "darkPalette": {
+            "foregroundHex": "#F0C5B4",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Pasta.png",
+          "body": "",
+          "title": "Quick pastas to save dinner tonight",
+          "recipes": [
+            "334987c110a04cd93603bcc8d4c057a9ae9a8ae9",
+            "869558f3e0f14157b93eb6136abe4826",
+            "92535b17eea741a59e4799ad5b3a6a67",
+            "686ff29cef81405f91082f3e7c2c8da2",
+            "1f37d3b78f67436fba0734604276806f",
+            "503558d020b74fa89e444ceecbdf5e2c",
+            "f374d45856acede24e04c84c68ab6e2d67276c19",
+            "ed5df12557424bf68ada1318b21c063b",
+            "45714abb31b947af922b8d43fa35f1da",
+            "13119f1bd43b4e46a0da42145b286273",
+            "689dee09115b44208a27ad66b2dea615",
+            "37e7319308424782ad380c70ffce013e",
+            "d0a44722bcdf4c589bdc662805a1782c",
+            "e3049befe51747269ece05a767a76c32",
+            "f9e8c5058e7e43feb8b5d9bb6c50e4f9",
+            "76e6e8616585807d25fec3662d46bab79b32f73f",
+            "af0b58c3fc92b994fdd337f8dd8129664a0e8689"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/MealsforOne.png",
+          "title": "17 easy family meals",
+          "recipes": [
+            "a4ce2d767d704c048d36d577628c01a0",
+            "5d2d8022914440bb9c6e63eda99b33cb",
+            "f8d08fd8500946fcb6be890d23ef564d",
+            "506a5d72b1904c07bf433720c6806b43",
+            "5215447a3fd54467a3464dc1c47ca3a6",
+            "a2ddccb3976642deb5d3a69fdd5e4bef",
+            "a7d56536642d43c6ad46c8814212b8c6",
+            "29abf34db38e417a9be9cbe8747ccaa8",
+            "3b1f93dc4ba74d3ba60747166f420cfc",
+            "3d15c77dd13842d6a2b5298a3dadb713",
+            "40e05b4fda1642ddaaaffcc79eca7120",
+            "35aa7251e862f24beee09b75502f24d2b423e1bf",
+            "7dd95b8fcf46c204b6a6b488cbdd933e0a813a2a",
+            "ce418994569f4b8aa7242b5923359aad",
+            "2e91e58b7e36430d94426bcfc05e1f1c",
+            "d252d288938dcaa0da1dea32951fa00f3d1491bd",
+            "79a2138401af48a18256bdb06cd7ea58"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Taco night",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Tacos.png",
+          "body": "",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#FCF1F0"
+          },
+          "lightPalette": {
+            "foregroundHex": "#DB2712",
+            "backgroundHex": "#F9F9F5"
+          },
+          "recipes": [
+            "572c49a9fa854fbbbf651c3a8ca4a4c5",
+            "51e387eff27972c531830ff262bf755c99280b4e",
+            "364b8cf824a9476c91b19f2ab63fd291",
+            "4c42c43b66174fb6a57250f134aa9d6a",
+            "0c5db0fb68a945feb095995ae840a86d",
+            "f8da994626cc463b856ffaf20df50f79",
+            "321c0c48735d4d6593f92eba6f0a370b",
+            "372571f4efe14ac5b10e98af0227f7fa",
+            "7a1a6fb3c6ae44008a075d545dfee63a",
+            "5d68d4fb88d44761b8899b919a3fa9b5"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "foregroundHex": "#F0C5B4",
+            "backgroundHex": "#363632"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Dessert-01.png",
+          "body": "",
+          "lightPalette": {
+            "foregroundHex": "#603D2F",
+            "backgroundHex": "#F9F9F5"
+          },
+          "recipes": [
+            "753448cdf60a4a689379daa859f62cee",
+            "a8ad45a808064d58ad347a796c3583d8",
+            "41c71e281ee54092a63cc0c3af8fdbaa",
+            "73a0cf1b46db402f83e29e7b69fd9da8",
+            "564c40dd46d94d7495cb5ced3739f0c9",
+            "c8023febf9e7afedbef2f22cae229ce7173abd86",
+            "6aca6e20de9d4b35928ba8fa5fd3b9ab",
+            "025fcbec9d76c5b646501b900c2fc582064d7712",
+            "c497247a053f4f63a7757aec17517ed6",
+            "a65dda12d2bca08d237633cb1b1c451a06a8d658",
+            "b3be522d8b1dc96ac988426c46cef6280b9b9b7a"
+          ],
+          "title": "11 simple loaf cakes "
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "92f6a3a5489e46c6b611366ef9c48c7a",
+            "fd1badb72bd382b7e3c3f537adb6af47195d8e63",
+            "b303f22f8e124cf79b6389f7b69b24ea",
+            "e5cfaefbf85f447c9f2f3e64acd64cc0",
+            "2b6e3975967d426babdc2bab2504c4f6",
+            "9c3748c59210463fab6c64e633ee6264",
+            "f5700ec5a6874371ac6ed77e125cf164",
+            "a33073175fed49619fa523835b490c38",
+            "4b78966b21564648833eb6735aa92dae",
+            "90d35a340b5a4c65a4e09dda2647a8c3",
+            "9ed905082e4a4d9282f353552be2a27d",
+            "174140736da34afe99ad122ea5b17fe1",
+            "52f2d9143c4e8054623bd79ec1f1521c2626dffe",
+            "3f64bf04e7dd4a768c303e8f5c6b6bdf"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#FCF0F7"
+          },
+          "title": "Snacks to see you through the week",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Cakes.png",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#BB3B80"
+          },
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "1d917ffab8c44cd1b46e2d6063b40025",
+            "a36bdfb3250ab1290f3c3311513fda93f61c8b8f",
+            "d5a1f89620ea42b19296968897b7d3cb",
+            "b946c4d7ca8b44eba5525fd453dfcd4c",
+            "483a434939fc4a1ab23d7b50a158a54d",
+            "8d4b9b14d6c4408ea2fd2ba4d1ea67ca",
+            "55eab1e4d21b4ae2876b2c4bef47b9f0",
+            "2a957e99a498480591623479fffd2948b7363cfb",
+            "6b689b885f7af3fb0d9a96cead617c438276fb5f",
+            "71953e013b394600a78bc704ab12ab02",
+            "c40f14a67d004c32a8e2260c9c920ba4",
+            "d23696f93ef96f91d678e3f2a4d1eddde4d42f22",
+            "377f349e7b744123838a920dc633a65a",
+            "3a47de7158b94dd38541e0c2b26653ad",
+            "c42d7eeaeed34c3eb03e75a606383a4a",
+            "e3049befe51747269ece05a767a76c32",
+            "e8ef4798ac04f8d8ac36be3d0781fc2bba07b916"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "title": "Quick fish dinners",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Fish.png",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Peas.png",
+          "title": "Peas please",
+          "darkPalette": {
+            "foregroundHex": "#E1E5B8",
+            "backgroundHex": "#363632"
+          },
+          "recipes": [
+            "1f56ef4a7639493e9074a44fa11af337",
+            "e2e035bca9da68b656607fb759797c07c9a1fc7e",
+            "e845e6cb23ffef0eb2607f58bc8d616e50e6b56e",
+            "49df2dbfbc1e4022ae75c8a15798cd13",
+            "fd76873884df46f0b9d77b4e384f3580",
+            "b0401d3207854b38a573199b8012d711",
+            "7a83dafa5c3e805b3f55917b6e55f496efd39e9f",
+            "5cfff7528931d9ebd51f6da85c0768e002627587",
+            "fdf11b39bdbf464ba6683a59eb664778",
+            "06323e7dcea73dcf3a1dcd1f3fd6bab8712799e9",
+            "d56ebdd33b6f474a978988f2ad684186",
+            "0f5154cf030c422087b912dbe06d8e05",
+            "af9326a4d2ea7b047b4575a40b05401be5e0934b",
+            "4ee6583dca0f4662b09192dccd20d95d",
+            "e8cc0f6af6c34c1c9196de7ac8967ea1",
+            "58b9ada460774206b360437d7651ff6e",
+            "b7c02b871902496d304f4f97382bad7fc3f4a276",
+            "689604b5b8564084b0599e88d626e05b",
+            "c10dc4a528136f96c52a763257053efc8f4a0669",
+            "595760302557d903673e7482a46a12a3fe6d6567",
+            "6d60e694364a47e8b9ad3683e43a1968"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "body": "",
+          "title": "Ottolenghi's five-ingredient recipes",
+          "recipes": [
+            "cf625b8cf9234959ab9cd78944ba1e8b",
+            "345af52e2f4b4b03bfd5d4e1080ff0ee",
+            "a2e350e2520847fd8bffee3e81dfc148",
+            "59ae9214252c40799be5b7ea047e7bb8",
+            "28a409345cd646289294e0cbf4abd532",
+            "3fb51ab9000f4c1db2310352801bb90b",
+            "74b69f067ca244feb2f1c3212f4e2931",
+            "ab2597516a3448e8aa358b1bbc104c76"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/MealsforOne.png"
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Celebration.png",
+          "title": "Bank holiday feasting",
+          "body": "",
+          "recipes": [
+            "3fb51ab9000f4c1db2310352801bb90b",
+            "9689f3fe3a70637e399dbc1b238bdb059a20b4f2",
+            "780c0e3960a24e7a83dd46e3654852b0",
+            "2043ddb5ce6a468090748b579708b13b",
+            "6fb919adfe8c42aa869a37ba724ed5b8",
+            "9cc2bd436cf4425ca697aceff27fc322",
+            "77f0798478274bd48c9e20590add53ac",
+            "6b1855e774e7423e9f857e9c91674e29",
+            "106aa55b48724b13a2bfc1c0d1376b28",
+            "01caef6dbee94966b9fa2dbf3e6c78cf",
+            "4b0bb746926d4cac9857d9636021a365",
+            "d17ffff09248c188da0ace889a20d69cdec69fe7",
+            "87a1528970a540388cbc2354c02d2230",
+            "eb47be39db544993acd9b086ae434614",
+            "dc78785751b4237474548c5e62f1eacc9d616084",
+            "336c027e8db449368b289a4e0d3b3a74",
+            "d668ce1db8a74efabd107b8cd50698d4",
+            "5f97dd09ed504ffe92eb446082fa365c",
+            "1f4bb1f93716474c8e57b35f099ce2e2",
+            "4fe4fe4abeb553322bd13c8f0ed17a4f4b6df6d1",
+            "a75a4681527def5f8f657feab0c4b7909951453f",
+            "642b520cf07e4b55ab11288b60097df9",
+            "654e20c888bf4b9e83d23668b4c3fba5",
+            "44b492418d524f919890d648b3635d64",
+            "e9f5fb967fbe4da5b7f3147f8ed3cd6e",
+            "a30de1389c634121b778faaa3c732ae7"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#801919",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "foregroundHex": "#FCF1F0",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0C5B4"
+          },
+          "title": "16 no-bake desserts",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Dessert-01.png",
+          "body": "",
+          "recipes": [
+            "b01eeb19a4a2792cec0cbfc6bd38e664470e403c",
+            "1d7f7eaadd9717737d46929e1602c59d36310b27",
+            "e3184714656f461f954df1585163af08",
+            "b103f9ce9db44416851ca9f95f699bfe",
+            "696fb9989f8d4701adc87e68126f037e",
+            "768a5723d94f40429c8f8551da348969",
+            "6aebe20755a92b814d121e1412bd7c88c166ca83",
+            "1aa3a7bf4baec35e2757bcfbe5df22dc8fdfc9c8",
+            "e01b365e2c7946fa812665b0c5940221",
+            "8cef7129e2e44d28988e605e3d09d1cf",
+            "e2766779870e150f444401083d97bd25e4f92b1c",
+            "a9021db48f689825da69cf47e245de94a02e318e",
+            "8ce6c91a11f447028d91219579a81e3c",
+            "da9d506885c5f77f24971c84e3f2353240fc9806",
+            "b107ed3aa8434db3b698929028aca1aa",
+            "2fb4d7ba078d49dc99dbdf2fb2840c86"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#603D2F",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Brunch ideas to kickstart your weekend",
+          "body": "",
+          "recipes": [
+            "bc6ed9bb829f451f872fb44b0ef39174",
+            "bdd1f7cbc53a23c89927470c63dd6556e03e80eb",
+            "b03b5b5f8cf94c97b57ce6da46b6b184",
+            "07a76f349a384036a19ee853e01def64",
+            "48666b53790e46d3aeac405188092730",
+            "c51f479d758f9b42150b0b9e9ee415dbbbc25750",
+            "8966e832cd4e4f2b9f4503f1b4c6b14f",
+            "6bac022c68350d7f99b0e2fe0693ef8e1f598278",
+            "0d3437e9613d5e27eeb7afa3523a2af16953b917",
+            "9a2f90304565aaaa68b63cae2e9b72ecd7f8913a",
+            "8ad7ce01b5bc4ffd8a57e6e0b8aea296",
+            "cc7ebf2add382bd68e674c76702bfad799680682",
+            "fa7e5c41644f33652bbef3706456377b392f27ec",
+            "c906c46aed54f57a4b0bf49acaf16a9ef3e82f5f",
+            "5c7849099a0e21a90af673ddd6f5fd886c873021",
+            "2aa30ba7596eacfe0c5f55ee4de80bf1f5d955bf"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Rice.png",
+          "recipes": [
+            "5ddb905251dd46bbba934c0187c18ba1",
+            "e27631a82aca4f409bc2adbeeaff8fbc",
+            "b0a0421fb3d9614f64e4b66c1f11fad2a469323f",
+            "340d813ca3a54ed5b01a4245b4aaa756",
+            "e89e33e231a9437ba08ddc75e88bc7b3",
+            "ba2e3fbd4fe635f6242d0a760e0ff57e47e8639f",
+            "e845e6cb23ffef0eb2607f58bc8d616e50e6b56e",
+            "45159b8fa6e94c9bb49a83e2af0b012a",
+            "506196afe5494998aec420d1caca0bd9",
+            "ce418994569f4b8aa7242b5923359aad",
+            "008536b24df84eb2ae87019eb1ab6dbf",
+            "d31901670c0b1d20b9265c3a4acddd7e842df8fb",
+            "58b9ada460774206b360437d7651ff6e",
+            "a32e52b3ac3b4f6a8b35b124e8e5b305",
+            "146d98fb2da844319993194b5f116f97",
+            "d5867407d2e13cf638e13d2918f9087362f56a9a",
+            "2a957e99a498480591623479fffd2948b7363cfb",
+            "ad55da560eef4ea388298a2633082ff2",
+            "aa9d9934256d427e8e978a105e687a2f",
+            "39afab72e54246c4a0ba90fe4d4ac144",
+            "043ae70c544c498f9dd77543295ed885",
+            "f3f959e1adb6b41d99e360b1f96d06a91d21a49d",
+            "1d2612a5803eb903aff59e1589e2266c16c00030"
+          ],
+          "body": "",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#DAE5B8"
+          },
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#68773C"
+          },
+          "title": "Go with the grain! 23 unbeatable rice recipes"
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Budget.png",
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Budget-friendly dinner ideas",
+          "recipes": [
+            "780068163a5c13b6df6e909f71ed645e602ac329",
+            "1d2612a5803eb903aff59e1589e2266c16c00030",
+            "0c653852f06043a39d0c06174bbaa140",
+            "364380002ce91435b6c19d0e22f93988cadabbc6",
+            "8331745825b27fe1d24511248a9e648e988d5af3",
+            "87dbb86dfbd64489ab20ec53597de8ea",
+            "039486346bcb73d1efeb8f3ab5a0dd2d27186a48",
+            "7a83dafa5c3e805b3f55917b6e55f496efd39e9f",
+            "185a5b8744c84393d84638e10af5a3e13abd01a4",
+            "724384da9aea42199f25f5ba60faab74",
+            "3d20a76b9e9caacb7ae616c13a1638928da67185",
+            "2fbd5b7e8f61a340c6652b1323b48316440d98d8",
+            "ca8ca2fbc771f0db83e921da1fefc0b172795892",
+            "ff2faff12e8de3413cf20e223d2cb48c6198b2f1"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "recipes": [
+            "0feb8601b5d6492985ab63e710c2e97e",
+            "6e3a6e757167462ca5012f027678eccc",
+            "6dfc1232f2a250095601c562bd7baaf5d949cdb6",
+            "a31c87dc4c7346adb64071ba4697ac17",
+            "d603aeb232faa9a5aa458bd91e5c730bc846ff2e",
+            "4bb5a367579e41c5977e21b3fe8f7bb1",
+            "7baa0d9245b64e79a7ecc32e656080ad",
+            "7ef832b99a474dfbbccdbd8023a13e9a",
+            "d3b56cb11d774c6a954de56785d9abf1",
+            "1be867a8a8ef423aa89d3cb3d3a4de0b",
+            "2043ddb5ce6a468090748b579708b13b",
+            "9fb6ac3f73214f828db0980213b4cffb",
+            "8ee197a3467aa6344fe7486cbd4054d985591ad2",
+            "516ce534b4b74d4b8e93b2fc36b9ba83"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          },
+          "title": "Salads for spring",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Salads.png"
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#406508",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Soups for spring",
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Soups.png",
+          "recipes": [
+            "0f5154cf030c422087b912dbe06d8e05",
+            "dd8143490e81438c88bc6ba162db7ba9",
+            "16175633e0c04595be486084cfed7e75",
+            "2affd7e898a0489098b589bdabeae53c",
+            "ff84c58035b67ddf3deb4ce4f09dd4a7d1244cea",
+            "f0cc0ec3606c4b58b4f635eaf09f9628",
+            "0ef56172b7834d7a86d0a599e87b8e2c",
+            "0c027207d84a21761188d7cedfc0194d17a9c844"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#DAE5B8"
+          }
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Spring.png",
+          "body": "",
+          "title": "Ottolenghi celebrates spring",
+          "recipes": [
+            "1f56ef4a7639493e9074a44fa11af337",
+            "09863d3f7c004a8c8c73980d385f1347",
+            "2a9ac10a87cb55e59203ddb6db5f609e87461c31",
+            "ffaba5ceeb4102ebbd0503801f599572031c2df1",
+            "24c9724228913365aceb96cdc43c1f3f3278d872",
+            "c42d7eeaeed34c3eb03e75a606383a4a",
+            "8935d784011a4e229ddd363c54bf2b3a",
+            "408b8fa0a1e14b0daa6833e390df009f",
+            "53c75842f0cd43b08f7573cedc593fa1",
+            "d33cd8feca984a5da01bf100fb5ad4b6",
+            "b9067f34701d4bde8890738c4911669f",
+            "f50e906f923f4c79b7b09dcb03a7d4ca",
+            "50f238eaa01d4aceadbcde77475d48c5",
+            "3d4beb15d8ff488f8221074c5f66fee7"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "darkPalette": {
+            "foregroundHex": "#E1E5B8",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "title": "Meera Sodha's go-to weeknight meals",
+          "image": "https://uploads.guim.co.uk/2024/03/21/MealsforOne.png",
+          "body": "",
+          "recipes": [
+            "b96e0c72b3633a2d6caf289b1c153bf0c9fdeaa5",
+            "11c1f9d18c7146bf9764a1a1d74de399",
+            "cc8f1efc5a8e42dab8a77261f986d690",
+            "aa3a6f9751b34f5d9bd8399e9b9f96e1",
+            "2a52f8718a0e607e81e831e1a77e40fdbf09a522",
+            "b442eb2b49e441d5ad4df875eb0f5328",
+            "19b27ea6a3034778a3c10a754d303d38",
+            "f9be73f277a447e9bebcf73317bc7e45",
+            "7baa0d9245b64e79a7ecc32e656080ad",
+            "464d0cca2fef429e808219934d650498",
+            "ad904ffea0276dd6182a4ecacf416df25f309835",
+            "30687939426d454db1141026759e5c80"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "lightPalette": {
+            "foregroundHex": "#DB2712",
+            "backgroundHex": "#F9F9F5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Tacos.png",
+          "title": "¡Viva Mexico!",
+          "recipes": [
+            "f6f67c49cbd44453b3dd157b94351fd1",
+            "134ec6a19ddc4dc8a19c1580a9cea068",
+            "030d5586d6454b638849ee76bc8d1530",
+            "08536985a5c44a52bbce733cdb2adfd2",
+            "63912f084d534706849a3fd70594b1b2",
+            "db168407513f420fbf61a2cd9d1bfdf3",
+            "572c49a9fa854fbbbf651c3a8ca4a4c5",
+            "ce291f3ac04f4f24b7c7d5b094724dda",
+            "2afd1f56445c4c77b8f0d0722d5559d8",
+            "f701f45691bc41989a356b81d34dfd79",
+            "ee79fce25f03bce0d5ca47ec28b2ed90453bd9dd",
+            "c77d40fe9f6846e2a6ccbae7b5a67fc2",
+            "2e232ad459eb4d2cb05f075606e77953",
+            "4c42c43b66174fb6a57250f134aa9d6a"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#FCF1F0",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Brunch ideas to kickstart your weekend",
+          "recipes": [
+            "bc6ed9bb829f451f872fb44b0ef39174",
+            "8966e832cd4e4f2b9f4503f1b4c6b14f",
+            "48666b53790e46d3aeac405188092730",
+            "6bac022c68350d7f99b0e2fe0693ef8e1f598278",
+            "b03b5b5f8cf94c97b57ce6da46b6b184",
+            "0c924ada5fe0e33c3f1f19af916794c4760e8390",
+            "c51f479d758f9b42150b0b9e9ee415dbbbc25750",
+            "9a2f90304565aaaa68b63cae2e9b72ecd7f8913a",
+            "0d3437e9613d5e27eeb7afa3523a2af16953b917",
+            "cc7ebf2add382bd68e674c76702bfad799680682",
+            "bdd1f7cbc53a23c89927470c63dd6556e03e80eb",
+            "8ad7ce01b5bc4ffd8a57e6e0b8aea296",
+            "fa7e5c41644f33652bbef3706456377b392f27ec",
+            "c906c46aed54f57a4b0bf49acaf16a9ef3e82f5f",
+            "07a76f349a384036a19ee853e01def64",
+            "5c7849099a0e21a90af673ddd6f5fd886c873021",
+            "2aa30ba7596eacfe0c5f55ee4de80bf1f5d955bf"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Brunch.png",
+          "darkPalette": {
+            "foregroundHex": "#F0BAB4",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Dinner with Honey & Co",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#406508"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Soups.png",
+          "darkPalette": {
+            "foregroundHex": "#DAE5B8",
+            "backgroundHex": "#363632"
+          },
+          "recipes": [
+            "8788c67c5a924150a50036479aa9d3bf",
+            "fbbff70e55754cd08157303d1641e762",
+            "7f87d70c8aac44eca5a8364a3ed18626",
+            "41688d1e0671456bb5fb635470c131be",
+            "a3ca1e9aa6bc4c60a4feff39c8b0e161",
+            "4429d7c15cfd4b7f8068cee88911fc4b",
+            "0fde982d404647c0afa8959c200e028a"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "title": "Cauliflower dishes to make on repeat",
+          "body": "",
+          "recipes": [
+            "b43a3975fc8a580b7d4a27ca4ee3722011eeba8f",
+            "28a409345cd646289294e0cbf4abd532",
+            "gu-recipe-52cfc990-e769-4187-baa4-3c6a19e68df7",
+            "18c975cfab374394a1b826e09fb7d3d1",
+            "ff2faff12e8de3413cf20e223d2cb48c6198b2f1",
+            "f5935ce0355c4cf9a1aa98bb522cae99",
+            "15118705ef0d44d19deb03391afde61d",
+            "a2b7ffbb3e63476081387cb953b4c7fc",
+            "136e8a07a81c4f5f93ce06a5992159ee",
+            "172fdddde40845bc9c8ea0da55416b9b",
+            "gu-recipe-1244fcf6-601f-4972-8579-1bac76d3f886",
+            "1cd65a1daeb64da795f8187464a7ee16",
+            "f8da994626cc463b856ffaf20df50f79",
+            "02520d657a71fbfa0b2d8cf9a6871cee670db9ae",
+            "1c484f4d19224f7296ebb987b1c99c78",
+            "5086abed250d4b52a2ac0ccf39b4d7aa",
+            "86c121390629889a521e4d937a0fff5ce6670217",
+            "4a77e80808be752587b9f5e91ad9ebe9f22a62de"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "title": "Cracking egg ideas for breakfast, lunch, and dinner",
+          "recipes": [
+            "c5f75dc02fc44671a554b3a87a5c738c",
+            "cc7ebf2add382bd68e674c76702bfad799680682",
+            "1f4bb1f93716474c8e57b35f099ce2e2",
+            "689604b5b8564084b0599e88d626e05b",
+            "3e981fe5ecce402c96df9b0ac22d1b00552afb63",
+            "4cf904b8d70a4cdbb7bc8ad4c5470531",
+            "aac36de1842941f6abdbfdb046bb5e5d",
+            "aaf7f01c226a71b4d40e819b4e9bc8025161eca3",
+            "8131ad2f26014a56ba54b513c5824669",
+            "62c587e9ff1c036113d85487c87df44020be2d22",
+            "a552e0ef29dec759e7ec272943634cac72dc6584",
+            "3315619221132ef96eb36bcc4cade3be38637a0f",
+            "7fd0e1fe8f30a7d3a9baeeaaf20f805bce05cf70",
+            "106aa55b48724b13a2bfc1c0d1376b28",
+            "597c86ae6b458667ad3abc9145dd15c1aa2c2452",
+            "9a2f90304565aaaa68b63cae2e9b72ecd7f8913a",
+            "6bac022c68350d7f99b0e2fe0693ef8e1f598278"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#C25400"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Eggs.png",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0CDB4"
+          },
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "8e27411083d749cb8dd555111e4c9fc4",
+            "61098f0adc754654b8221e9c5ffa6ad3",
+            "c06aec2ff23a4437a3270308837824a3",
+            "b934b4bd8ede4014981322b6c405cb45",
+            "3f64bf04e7dd4a768c303e8f5c6b6bdf",
+            "22c54737038e494cadca480654783eea",
+            "270510ec7caf4a4b92a38034807b9476",
+            "75e41fc9879044f9a1d7fbaf63b35cee",
+            "140dddbd0441498fbf58ddda140a060e",
+            "acf3d7e9e4d64116a74a4e285a2b5687",
+            "5bdb664bcc8c43aabb062f3e3bc4cd5a",
+            "5561c0dcd29840ddb76e38052e3b622e",
+            "74b69f067ca244feb2f1c3212f4e2931",
+            "908d0dbad2174c3fb75e5f0975a2d966",
+            "92f6a3a5489e46c6b611366ef9c48c7a"
+          ],
+          "title": "15 recipes we're nuts about ",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "4ddecd5f314f49bf81dd193adc478ebf",
+            "7919ad3fefa54673bbf4a36713cf1867",
+            "c40f14a67d004c32a8e2260c9c920ba4",
+            "039486346bcb73d1efeb8f3ab5a0dd2d27186a48",
+            "ca3327a34051415399d0d19a8f97cd5d",
+            "724384da9aea42199f25f5ba60faab74",
+            "75bfd11508f74003a706c3bab677bbff",
+            "bffab5ece6264ae3ae620c06dcfb33e0",
+            "2cac8599af23421eb9179082375a4cd5",
+            "185a5b8744c84393d84638e10af5a3e13abd01a4",
+            "f6db08975f9f4ba08f295e84f84590e0",
+            "87dbb86dfbd64489ab20ec53597de8ea",
+            "ff2faff12e8de3413cf20e223d2cb48c6198b2f1"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/MealsforOne.png",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "title": "Meals for one",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "1d7f7eaadd9717737d46929e1602c59d36310b27",
+            "83eb4392d32280c8ef975e6dce6c568f3897e32e",
+            "8fd8bb8103691f4f5fa3498d0c02c0bb1ec2cc1a",
+            "9657dc17344d41bda1e9f0389a4cbb9c",
+            "2b359390f817442b9f5dc1254f055a3a",
+            "9e11ea4882ec417dadfbf8f070f8be7e",
+            "da9d506885c5f77f24971c84e3f2353240fc9806",
+            "9da424b8c6d84d1a9fd9e61ff781b018",
+            "246d126ec4b047379f2657b2c1accb5c",
+            "6245fef223c215fa15d327bd54ca8b59dd6c527a"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#FCF0F7",
+            "backgroundHex": "#363632"
+          },
+          "title": "Ravneet Gill's favourite easy bakes",
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Cakes.png",
+          "lightPalette": {
+            "foregroundHex": "#BB3B80",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "darkPalette": {
+            "foregroundHex": "#20201D",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Rhubarb, rhubarb, rhubarb",
+          "lightPalette": {
+            "foregroundHex": "#3D4D26",
+            "backgroundHex": "#FFFEFA"
+          },
+          "body": "",
+          "recipes": [
+            "54cb7e974cc679aa0d939b75941dcf7290654bc1",
+            "0bc91fbcf826cf24af1c9833d703727d5853c852",
+            "afb72eef96ce44b8917cc83b0b7aac01",
+            "9e11ea4882ec417dadfbf8f070f8be7e",
+            "adeb1149f0ad89e360d28c8b25e7a0ce9c801c4b",
+            "246e57b0-c5c1-4022-a224-3c9f8ddbd45d",
+            "f75d496e60343a9193e99af5c60ccdfeef1b7118",
+            "05e98bc5d8fc42f3867b8c33a6b73aa6",
+            "6f27f88446e7e91e407b95158e51be030a368c04",
+            "9367d6d3e6c44efca18eeca5598caf1f",
+            "23459c5ddce1460c954eaadb3824fbda"
+          ]
+        }
+      },
+      {
+        "collection": {
+          "title": "Roast dinner leftovers",
+          "darkPalette": {
+            "foregroundHex": "#FCF1F0",
+            "backgroundHex": "#363632"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Celebration.png",
+          "recipes": [
+            "7dd95b8fcf46c204b6a6b488cbdd933e0a813a2a",
+            "89df4ccf44564f8dac766d3666df9101",
+            "ffb06100a6ae0c1c463fe8e9aa2cd6a7cb6daf60",
+            "ae3d6ce2f38c413ca678e5aec060786f",
+            "49001c8cba3142daadac16e630f1d51c",
+            "186dc3a48ae2492ea08f2b637b6c1184",
+            "b8e67ecf50784dc39b9e9abaf8866a74",
+            "ddcfa9ada8564346943586169bc7e5a9",
+            "615716cd1ad24d4facfdd5c023c260eb",
+            "a997861901c54a238da548d2b4714469",
+            "0c5773d5ebb54f68906886ae8f726326"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#801919"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "La dolce vita",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Pasta.png",
+          "recipes": [
+            "db524fa161833fdf25e3b4021e919ab4efed1507",
+            "97e4b09ef1494ad29f3ab8de33ca16a4",
+            "3336e8d90c1f4dbda50f316b0bd2e836",
+            "c8a932796ad54158a4ff536b6335d7fe",
+            "483a434939fc4a1ab23d7b50a158a54d",
+            "bd7fadca94cc446397c3cea8240c6e80",
+            "93d07753187346fcbaebde55fae4c20e",
+            "2dc733c90e67440782f090ebb43e2d99",
+            "a40de9a1dfd549f79797e9860c22aed6",
+            "ad55da560eef4ea388298a2633082ff2",
+            "768a5723d94f40429c8f8551da348969",
+            "aff66279754c40579954e500d242bfe8",
+            "fb6961d3fb074a54b9d7162158d95bbe",
+            "39b565359a544c4fbfd8eab5d37d4f75",
+            "ba8b84c3c653ee422e4d7b93c9a312ad9d386ac5",
+            "98741c0a93154db4ae4662cc93e11cc9",
+            "39363c363e5f4b26a3e18969735c5256",
+            "cff5c3607a404c789b317a74c6ab3bfd"
+          ],
+          "body": "",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Chicken.png",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#C25400"
+          },
+          "recipes": [
+            "7919ad3fefa54673bbf4a36713cf1867",
+            "gu-recipe-05515c62-60f3-4e64-bb1b-3353598ad693",
+            "fc522cee53e8421e9f4c2dbca8bd5113",
+            "296f79d1ba8c46f3b34d9e8cedf0b3d3",
+            "011d14c9a7f2f1ed8699c5e1a715de5c51079ab2",
+            "7f87d70c8aac44eca5a8364a3ed18626",
+            "e0257f50738c403bb50503e3edf35fc8",
+            "7a1a6fb3c6ae44008a075d545dfee63a",
+            "e10a9194b4d46de5edb3479acd68893adc397654",
+            "49001c8cba3142daadac16e630f1d51c",
+            "869a8d96424c46e28a58c25e0f63e36d",
+            "7dd95b8fcf46c204b6a6b488cbdd933e0a813a2a",
+            "32101002c7004128afcaac51e8473dc9",
+            "gu-recipe-5efdb856-1eab-426f-9cfb-51ea04c654c6",
+            "843b5a19750847d9955ae54d8da4d2a7",
+            "7b723fe7bceb4ee69a3ccb1a27fc1392",
+            "a997861901c54a238da548d2b4714469",
+            "472c6ce9a4633a85689841f8a0c8f24444227ad3",
+            "eb47be39db544993acd9b086ae434614",
+            "654e20c888bf4b9e83d23668b4c3fba5"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0CDB4"
+          },
+          "title": "Weeknight chicken dinners"
+        }
+      },
+      {
+        "collection": {
+          "title": "Rachel Roddy's pasta staples",
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          },
+          "recipesTitle": "",
+          "body": "",
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          },
+          "byline": "",
+          "recipes": [
+            "a8a32dc1c090444eae27d1f68c8fb696",
+            "0af61e9302bc4b77b884ca41dea21b7e",
+            "2a49255030f34151994a49b220df9aee",
+            "467d92d142e543a1b9d059602c9848e0",
+            "60d89d129d5d4e36a2a2329ed6e23054",
+            "2217d97c9e454a1e9ccb325ec97e9518",
+            "befc00a41b6f4f048c6978d9fd7f05fc",
+            "49bc94d613e6479785bb513b873a9aa3",
+            "67b47f84467f48e0849bd51bb0149e26"
+          ],
+          "image": "https://uploads.guim.co.uk/2024/03/21/Pasta.png"
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "e0257f50738c403bb50503e3edf35fc8",
+            "b96e0c72b3633a2d6caf289b1c153bf0c9fdeaa5",
+            "488e2f3aab974b02935022a9364b23f8",
+            "48d8963c98834b799a8e9d402ff7074f",
+            "e4f01d9689384a518482a94e53d2d3ce",
+            "0c581f7fb02a840b4a965f68cfca4d38c80217db",
+            "40e95794cc7dbc515cb411ef8aa6bebcd2640cb8",
+            "e62d5635c76e025c87b8be752b009fcd20784ab8",
+            "a42dd0ff0b2a6a722e5a960fbf6209740c56d5f7",
+            "a59d653efeb9265f77117835ad06161d2bd0ebd5",
+            "4853179988ad4f3fab53eefacd20bf76",
+            "780068163a5c13b6df6e909f71ed645e602ac329",
+            "6e557ce4f64744908be5f05a2f8e8cc9",
+            "61098f0adc754654b8221e9c5ffa6ad3",
+            "943f7e2f75594d5bb5901c8ba3b4f5e6",
+            "e97cabe360ec4a36bd8a3b030f4dcc04",
+            "e794be235ec649c79076775110cdcdeb"
+          ],
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Noodles.png",
+          "title": "Use your noodle",
+          "body": "",
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#427585",
+            "backgroundHex": "#F9F9F5"
+          },
+          "title": "Pack the perfect picnic",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#ACD8E5"
+          },
+          "body": "",
+          "recipes": [
+            "4a0e3cc5ab594dc588c834d12de5cbf3",
+            "425f44d552d441849e645f88e71976cd",
+            "d3270411ee914aa68472b67211c74c42",
+            "9ed905082e4a4d9282f353552be2a27d",
+            "75b2ad123a484e188c164cd82996dc98",
+            "74c0b074c732888dde03f296ad5a89a5cdfc89cd",
+            "d5a4cd98f011467eb06545324c41a5dd",
+            "b9067f34701d4bde8890738c4911669f",
+            "eb47be39db544993acd9b086ae434614",
+            "45cc0d7e670b4da0af81a32f74ed5a43",
+            "0babc91f73784bb4a93765922da9aad5",
+            "17dd906402729150fb40e4b77426b18b026ff9b6",
+            "6752f7b390854ff39be72b613b6b9338",
+            "0be422f21d9343d49d65b1096f13d20e",
+            "f75d496e60343a9193e99af5c60ccdfeef1b7118",
+            "4757839b8a86401fbc5dcc4bbb774c5d",
+            "e43d54cd85928c262df473285e8e07f07ae26401",
+            "b7b799feff0840a28a6596cc3d20fe6b",
+            "cc619165ac134450867a1ea6b125dcb0",
+            "a97ab31059184140a3f22aa4a629a056",
+            "e7e8b2f8a7f747109a5728edc99b064b"
+          ],
+          "image": "https://uploads.guim.co.uk/2024/03/21/Picnic.png"
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#DB2712",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#FCF1F0"
+          },
+          "recipes": [
+            "1d7f7eaadd9717737d46929e1602c59d36310b27",
+            "a65dda12d2bca08d237633cb1b1c451a06a8d658",
+            "ded60aa6f30f4739a9738148b9f15f68",
+            "2ed561e6adb54b939c3b05aa85476a7c",
+            "e546e4fd74bc5aee0583bd6398e8a083c3de5a21",
+            "1fd2fd3862be4ff1b535542e79273721",
+            "ff9f334333073d9f66f402f98d9a1c42a36bc045",
+            "09b38d96527e415dbc7f9300a1fe70ad",
+            "a2f6d85d2dfa406e865b768151b75276",
+            "12e2a99891c8ae39285679d24999ef10ba9cbafb",
+            "d511c5a90c4065632dfd19a5baf3bbcb1f96bc2f",
+            "a8d7605169b94d5f8c715abae1018011",
+            "71d307849b114532a9376c2d0dc486a8",
+            "c3f2e5bbc4ff46f3a319cd7ecc78e16b",
+            "42448f2e071929808067ea16ea5ec8f4eab2e9df",
+            "246d126ec4b047379f2657b2c1accb5c",
+            "9e11ea4882ec417dadfbf8f070f8be7e",
+            "5cf2ea9e505418c2826f810cd88525e9d6fbe769",
+            "4e606b2fb57d4c95b4e2ca78b78f9970",
+            "b8ad3c302c6b48929cbfc10f8b071127",
+            "f47b7ee13da344b0b7989cf132d8c985",
+            "7ab7d30b2cc340989dc7f853088549b7",
+            "73fb171446734b6aabbb252f69b66d42",
+            "45afd2f79fe4411eb8fa802e5523a4aa",
+            "d8f79485b17d4011a3e2a536c1f198b2",
+            "1199c7158b6291492ca8ea39c6d087ac2721f9d6",
+            "6ece369ebfa24e8d88faef6f5871cac9",
+            "fa7e5c41644f33652bbef3706456377b392f27ec"
+          ],
+          "title": "Great British bakes",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Baking.png",
+          "body": ""
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Traybake.png",
+          "recipes": [
+            "7fa57ce5457e0427457caadb6151c50c21d5a297",
+            "b4fd8943b0f9400094ed6c332d925caa",
+            "ab11d39e13244321b4f55acc44e47779",
+            "gu-recipe-1244fcf6-601f-4972-8579-1bac76d3f886",
+            "c1b3eeeaee11cb295b883ce46fc3074937dbe1cd",
+            "4f095e1b16073324dc3fa69565148b4802338b16",
+            "7296dc19e55bcc6fe8efaa7f3ae52664816dc2e8",
+            "a5a6d8dc3cc44f568654a1ae6eaf2fee",
+            "a2b7ffbb3e63476081387cb953b4c7fc"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#801919"
+          },
+          "darkPalette": {
+            "foregroundHex": "#FCF1F0",
+            "backgroundHex": "#363632"
+          },
+          "title": "Easy, meat-free traybakes"
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "foregroundHex": "#697311",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          },
+          "recipesTitle": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Spring.png",
+          "recipes": [
+            "c8eb9c204abd4407929f2d6254a1b259",
+            "ff84c58035b67ddf3deb4ce4f09dd4a7d1244cea",
+            "65c76255565643c0a1b9ddd3e7189801",
+            "597c86ae6b458667ad3abc9145dd15c1aa2c2452",
+            "e69763fbea8906409fe8ae997d5a033f041c0061",
+            "c38b43e8b42e4afd95c7bba7c00719b0",
+            "8ee197a3467aa6344fe7486cbd4054d985591ad2",
+            "b745e72ec8ac415b99a764d9b704c488",
+            "0c581f7fb02a840b4a965f68cfca4d38c80217db",
+            "611f66c8793d7592b93cc670b7e70336b4794f85",
+            "c4374ab52a93bd6173d47adcb6bdfc4807c3b060",
+            "e164cc40630e4668bc93427476459397",
+            "f6e81c593a404d53cbc7007be6363d43b1efe7ab",
+            "e43d54cd85928c262df473285e8e07f07ae26401"
+          ],
+          "byline": "",
+          "body": "",
+          "title": "Easy spring dinners"
+        }
+      },
+      {
+        "collection": {
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#427585"
+          },
+          "body": "",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Pasta.png",
+          "title": "Simple spring pastas",
+          "recipes": [
+            "c38b43e8b42e4afd95c7bba7c00719b0",
+            "f6e81c593a404d53cbc7007be6363d43b1efe7ab",
+            "b6fd8c93fb0f4bbbbe295f64f48ac525",
+            "30687939426d454db1141026759e5c80",
+            "4d1b745d827d4214a8a309a2f967f922",
+            "37e7319308424782ad380c70ffce013e",
+            "71f1a82729d848238ac0fff658b2320a",
+            "7d773a1c5b0e4c44a0e15ec355c8993b",
+            "a439ce94284a47afa5b188216bbb300e",
+            "39b565359a544c4fbfd8eab5d37d4f75",
+            "c314bf18138e4e8e8429023bd4d006a8",
+            "06323e7dcea73dcf3a1dcd1f3fd6bab8712799e9",
+            "5cfff7528931d9ebd51f6da85c0768e002627587",
+            "1a522fe380c14e389f88d6edf8fb05ea"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#ACD8E5",
+            "backgroundHex": "#363632"
+          }
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "44b492418d524f919890d648b3635d64",
+            "8c1c3e4b499c054fa1bcb42cab8239a3860d3558",
+            "fb8834b382a35f785008ef203ff3e9ba8ece9e3f",
+            "fa95e2321f45e62543ddd5bf3acd7538608a2d86",
+            "df1a440f32cd1118a2a2a44b138ee73f16ce89d3",
+            "4a77e80808be752587b9f5e91ad9ebe9f22a62de",
+            "a69f2e43fea04251bc9056c7e25e09b5",
+            "405e031e36a915e14702f0159cf603a0696c921f",
+            "5f97dd09ed504ffe92eb446082fa365c",
+            "11b471e7b8971fde8265942bf846d5eff777c8d6",
+            "aca962ddbd12a14b0b4488e2518b8686cdb34456",
+            "615716cd1ad24d4facfdd5c023c260eb",
+            "32101002c7004128afcaac51e8473dc9",
+            "2eec1e5455c96a26028ecb530e55b246bde88438",
+            "4fe4fe4abeb553322bd13c8f0ed17a4f4b6df6d1",
+            "011d14c9a7f2f1ed8699c5e1a715de5c51079ab2"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#9A1E1E"
+          },
+          "byline": "",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0BAB4"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Meat.png",
+          "title": "Sunday feasting",
+          "body": "",
+          "recipesTitle": ""
+        }
+      },
+      {
+        "collection": {
+          "image": "https://uploads.guim.co.uk/2024/03/21/Potatos.png",
+          "byline": "",
+          "body": "",
+          "title": "Spuds we all like",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0C5B4"
+          },
+          "recipesTitle": "",
+          "recipes": [
+            "23fafe12cd9a0990728aa5b563fb8fe47657cce5",
+            "053c24109aabcf59f3d93b0b59bf8bad442559d8",
+            "d4bced74-291b-4336-8f4b-e27441a14fbc",
+            "c40d9bfc012886940f32b049ef1bad2b41651a90",
+            "aaf7f01c226a71b4d40e819b4e9bc8025161eca3",
+            "63af9615e4ef4bf7360958674da2ad5ede5854de",
+            "9656cbeebeba4af1b168c5db12383e74424ac098",
+            "b7e3bbc9ee34447d44488e24610316bb3a985f7a",
+            "11755a9a53344fa5811145f14cbd87fc",
+            "a64dddab0703fd06e99cba12c1667e58f6a14a62"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#99614B",
+            "backgroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "title": "The only chocolate cookie recipes you need",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Cookies.png",
+          "recipes": [
+            "09944c8e45824c668b9509efc971b1bd",
+            "246e57b0-c5c1-4022-a224-3c9f8ddbd45d",
+            "ddb41a3ddefe7b4e62a063ee6fca2f907e4623fa",
+            "a417693ab1f6921a8aa221fe54f5137cbcc96f95",
+            "c0e061e22f4ef04da77c04409af2135a1410136f",
+            "e02c21d11b16929e09274f9b15ec59b4c4f9821c",
+            "9cfa03b5729dfea81156544e72031b10372fc58d",
+            "f42ceb3f7fdc46dfac456c702013b8d6",
+            "468202f2e1bbf7cae1b2e19c9e92f08bd4383bc8"
+          ],
+          "darkPalette": {
+            "foregroundHex": "#F0C5B4",
+            "backgroundHex": "#363632"
+          },
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#603D2F"
+          }
+        }
+      },
+      {
+        "collection": {
+          "title": "Desserts to make in 30 minutes or less",
+          "body": "",
+          "recipes": [
+            "2c4556593074957a942e7b8f88f827bcc35b7445",
+            "67500c4c1ba5dc311db2027ab625c193cf7b039f",
+            "7040a3d452a7dae33f30776d3e966bca3f240f61",
+            "cfae863143920e93cdc12ccde28042ca45ed68fa",
+            "c0e061e22f4ef04da77c04409af2135a1410136f"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#994100"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/01/Dessert-01.png",
+          "darkPalette": {
+            "backgroundHex": "#292927",
+            "foregroundHex": "#F9F9F5"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "recipes": [
+            "6ac2a622d20a47d5827c74b77e1454d5",
+            "27220a3d6c8e61678c0f3f043a6f51bde9a50edd",
+            "6e3a6e757167462ca5012f027678eccc",
+            "e794be235ec649c79076775110cdcdeb",
+            "340d813ca3a54ed5b01a4245b4aaa756",
+            "e9b460dc9ebf3170b7badeafac6fb50a15971077",
+            "ab11d39e13244321b4f55acc44e47779",
+            "fe0ff1206d4f2e9c073df4fc150e89dd0cfa3ec7",
+            "1c72c3946ce0493781de48e32a033e57",
+            "91cc1807b059fa4abf744905fd93ae124f9e9c9a",
+            "e2e035bca9da68b656607fb759797c07c9a1fc7e",
+            "gu-recipe-52cfc990-e769-4187-baa4-3c6a19e68df7",
+            "08cf50a78d593be1945fca293d87844069ad9f0b",
+            "b43a3975fc8a580b7d4a27ca4ee3722011eeba8f",
+            "153b9d9b29024f41bf74c95f7b74dc17",
+            "64a9ab4165dded6657d71976f300671523021fef"
+          ],
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#98215A"
+          },
+          "darkPalette": {
+            "foregroundHex": "#F0C0D9",
+            "backgroundHex": "#363632"
+          },
+          "title": "Go vegan",
+          "image": "https://uploads.guim.co.uk/2024/03/01/Vegan-01.png"
+        }
+      },
+      {
+        "collection": {
+          "recipes": [
+            "597c86ae6b458667ad3abc9145dd15c1aa2c2452",
+            "d17826ba737f1df129e61d27ac53d3a56b8459f6",
+            "943f7e2f75594d5bb5901c8ba3b4f5e6",
+            "1e4f254087773ccacd515fa899b8d7e10e64eb38",
+            "0551534c8d93e8da7bb70553b10fa0d0f62534a3",
+            "f374d45856acede24e04c84c68ab6e2d67276c19",
+            "e433f13dd1564803a3394c4c13e8c5d6"
+          ],
+          "title": "Easy working-from-home lunches",
+          "lightPalette": {
+            "backgroundHex": "#F9F9F5",
+            "foregroundHex": "#697311"
+          },
+          "image": "https://uploads.guim.co.uk/2024/03/21/Salads.png",
+          "body": "",
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#E1E5B8"
+          }
+        }
+      },
+      {
+        "collection": {
+          "body": "",
+          "title": "Quick weeknight dinners",
+          "image": "https://uploads.guim.co.uk/2024/03/21/Brunch.png",
+          "recipes": [
+            "f374d45856acede24e04c84c68ab6e2d67276c19",
+            "0551534c8d93e8da7bb70553b10fa0d0f62534a3",
+            "e62d5635c76e025c87b8be752b009fcd20784ab8",
+            "e69763fbea8906409fe8ae997d5a033f041c0061",
+            "40e7806a87c2c15e4222d524fe87ec25d4958677",
+            "5f2b46fb40da4faea315915f1a6adfe41b59b672",
+            "e781a21adb6cb519bd463c54495cd584947a7623",
+            "d23696f93ef96f91d678e3f2a4d1eddde4d42f22",
+            "9074fe386c0e579c42bb855fc428921de797fb0c"
+          ],
+          "lightPalette": {
+            "foregroundHex": "#9A1E1E",
+            "backgroundHex": "#F9F9F5"
+          },
+          "darkPalette": {
+            "backgroundHex": "#363632",
+            "foregroundHex": "#F0BAB4"
+          }
+        }
+      }
+    ],
+    "id": "7FAD7A77-A71F-4D28-BE74-6E4BED8F94BC",
+    "title": "More recipe collections",
+    "body": ""
+  }
+]

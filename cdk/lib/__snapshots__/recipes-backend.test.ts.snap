@@ -2299,10 +2299,7 @@ def submit_response(event: dict, context, response_status: str, error_message: s
               },
             ],
             "Projection": {
-              "NonKeyAttributes": [
-                "recipeVersion",
-              ],
-              "ProjectionType": "INCLUDE",
+              "ProjectionType": "ALL",
             },
           },
         ],

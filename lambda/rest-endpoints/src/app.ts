@@ -69,8 +69,9 @@ router.post('/api/curation/:edition/:front', (req: Request<CurationParams>, resp
       FeastAppContainer.parse(JSON.parse(textContent));
     } catch (err) {
       console.warn(`We were sent content that did not validate: `, err);
-      console.warn("Data we got: ");
-      console.warn(textContent);
+      console.warn(`Data we got: ${textContent}`);
+      resp.status(400).json({status: "error", detail: (err as Error).toString()});
+      return;
     }
 
     deployCurationData(textContent, req.params.edition, req.params.front, dateval)
