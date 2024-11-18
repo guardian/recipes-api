@@ -3,6 +3,8 @@ import { TagType } from '@guardian/content-api-models/v1/tagType';
 import type { ChefInfoFile } from '@recipes-api/lib/recipes-data';
 import { buildChefInfo } from './main';
 
+jest.mock('./config', () => ({}));
+
 describe('buildChefInfo', () => {
 	it('should build up a simplified structure from the data we provide', () => {
 		const incoming: Tag[] = [
