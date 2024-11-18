@@ -129,6 +129,11 @@ export class RecipesBackend extends GuStack {
 				? 'recipes.code.dev-guardianapis.com'
 				: 'recipes.guardianapis.com';
 
+		const capiUrlBase =
+			this.stage === 'CODE'
+				? 'content.code.dev-guardianapis.com'
+				: 'content.guardianapis.com';
+
 		const eventBus = EventBus.fromEventBusName(
 			this,
 			'CrierEventBus',
@@ -297,5 +302,44 @@ export class RecipesBackend extends GuStack {
 			new LambdaDestination(publishTodaysCurationLambda),
 			{ suffix: 'curation.json' },
 		);
+
+		new GuScheduledLambda(this, 'PublishContributors', {
+			app: 'recipes-publish-contributor-information',
+			architecture: Architecture.ARM_64,
+			fileName: 'profile-cache-rebuild.zip',
+			functionName: `PublishRecipeContributors-${this.stage}`,
+			handler: 'main.handler',
+			initialPolicy: [
+				new PolicyStatement({
+					effect: Effect.DENY,
+					actions: ['*'],
+					resources: [serving.staticBucket.bucketArn + '/content/*'],
+				}),
+				new PolicyStatement({
+					effect: Effect.ALLOW,
+					actions: ['s3:PutObject', 's3:GetObject'],
+					resources: [serving.staticBucket.bucketArn + '/*'],
+				}),
+			],
+			memorySize: 256,
+			monitoringConfiguration: {
+				noMonitoring: true, //TBD
+			},
+			rules: [
+				{
+					schedule: Schedule.cron({ minute: '16' }),
+					description:
+						'Update cache of contributor information for Feast at 16 minutes past every hour',
+				},
+			],
+			runtime: Runtime.NODEJS_20_X,
+			timeout: Duration.seconds(30),
+			environment: {
+				STATIC_BUCKET: serving.staticBucket.bucketName,
+				FASTLY_API_KEY: fastlyKeyParam.valueAsString,
+				BASE_URL: contentUrlBase,
+				CAPI_BASE_URL: capiUrlBase,
+			},
+		});
 	}
 }
