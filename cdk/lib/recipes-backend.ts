@@ -337,8 +337,9 @@ export class RecipesBackend extends GuStack {
 			environment: {
 				STATIC_BUCKET: serving.staticBucket.bucketName,
 				FASTLY_API_KEY: fastlyKeyParam.valueAsString,
-				BASE_URL: contentUrlBase,
+				CONTENT_URL_BASE: contentUrlBase,
 				CAPI_BASE_URL: capiUrlBase,
+				CAPI_KEY: capiKeyParam.valueAsString,
 			},
 		});
 	}

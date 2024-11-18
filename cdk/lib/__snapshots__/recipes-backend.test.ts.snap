@@ -1164,8 +1164,11 @@ def sort_filter_rules(json_obj):
         "Environment": {
           "Variables": {
             "APP": "recipes-publish-contributor-information",
-            "BASE_URL": "recipes.guardianapis.com",
             "CAPI_BASE_URL": "content.guardianapis.com",
+            "CAPI_KEY": {
+              "Ref": "capiKey",
+            },
+            "CONTENT_URL_BASE": "recipes.guardianapis.com",
             "FASTLY_API_KEY": {
               "Ref": "fastlyKey",
             },

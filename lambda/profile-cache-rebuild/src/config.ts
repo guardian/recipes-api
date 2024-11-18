@@ -1,6 +1,6 @@
 import process from 'node:process';
 
-export const recipes_base_url = process.env['BASE_URL'];
+export const recipes_base_url = process.env['CONTENT_URL_BASE'];
 if (!recipes_base_url) {
 	throw new Error(
 		'Misconfigured - BASE_URL must be set to the base URL of the recipes API',
