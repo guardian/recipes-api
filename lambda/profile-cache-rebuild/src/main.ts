@@ -38,4 +38,19 @@ export async function handler() {
 	console.log(`Chef info file has ${Object.keys(chef_info).length} entries`);
 
 	await writeChefData(chef_info, 'v2/contributors.json');
+
+	if (capi_tag_data.length != profile_tag_ids.length) {
+		console.warn('CAPI tags data does not exactly match recipes api data');
+
+		const capiChefList = Object.keys(chef_info);
+		const missingFromCapi = profile_tag_ids.filter(
+			(id) => !capiChefList.includes(id),
+		);
+
+		console.warn(
+			`CAPI is missing the following tags from the recipes api: ${JSON.stringify(
+				missingFromCapi,
+			)}`,
+		);
+	}
 }
