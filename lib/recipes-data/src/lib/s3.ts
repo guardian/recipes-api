@@ -1,7 +1,9 @@
 import * as process from 'process';
 import {
 	DeleteObjectCommand,
+	HeadObjectCommand,
 	NoSuchKey,
+	NotFound,
 	PutObjectCommand,
 	S3Client,
 	S3ServiceException,
@@ -137,6 +139,22 @@ export async function removeRecipeContent(
 	}
 }
 
+async function getExistingEtag(Key: string): Promise<string | undefined> {
+	const check = new HeadObjectCommand({
+		Bucket,
+		Key,
+	});
+
+	try {
+		const checkResponse = await s3Client.send(check);
+		return checkResponse.ETag;
+	} catch (e) {
+		if (e instanceof NotFound) {
+			console.log(`${Key} did not exist in ${Bucket}`);
+		}
+	}
+}
+
 /**
  * Writes the built index data out to S3
  * @param indexData built indexdata object. Get this from `retrieveIndexData`
@@ -165,17 +183,26 @@ export async function writeChefData(chefData: ChefInfoFile, Key: string) {
 	console.log('Marshalling data...');
 	const formattedData = JSON.stringify(chefData);
 
+	const prevEtag = await getExistingEtag(Key);
+	console.log(`Old etag is ${prevEtag ?? '(undefined)'}`);
+
 	console.log(`Done. Writing to s3://${Bucket}/${Key}...`);
 	const req = new PutObjectCommand({
 		Bucket,
 		Key,
 		Body: formattedData,
-		ContentType: 'application.json',
+		ContentType: 'application/json',
 		CacheControl: DefaultCacheControlParams,
 	});
 
 	await s3Client.send(req);
 	console.log('Done. Purging CDN...');
-	await sendFastlyPurgeRequest(Key, FastlyApiKey ?? '');
-	console.log('Done');
+	const newEtag = await getExistingEtag(Key);
+	console.log(`New etag is ${newEtag ?? '(undefined)'}`);
+	if (!!prevEtag && newEtag != prevEtag) {
+		await sendFastlyPurgeRequest(Key, FastlyApiKey ?? '');
+		console.log('Done.');
+	} else {
+		console.log('No change detected to contributor data, not flushing cache');
+	}
 }
