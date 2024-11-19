@@ -54,3 +54,5 @@ jobs:
               - dist/lambda/publish-todays-curation.zip
             recipes-facia-responder:
               - dist/lambda/facia-responder.zip
+            recipes-publish-contributor-information:
+              - dist/lambda/profile-cache-rebuild.zip

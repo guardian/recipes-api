@@ -79,6 +79,17 @@ export type Contributor =
 	| { type: 'contributor'; tagId: string }
 	| { type: 'freetext'; text: string };
 
+export interface ChefData {
+	webTitle: string;
+	webUrl: string;
+	apiUrl: string;
+	bio?: string;
+	bylineImageUrl?: string;
+	bylineLargeImageUrl?: string;
+}
+
+export type ChefInfoFile = Record<string, ChefData>;
+
 /**
  * Helper function to un-marshal a raw dynamo record into a RecipeDatabaseEntry structure.
  * Note, this will not throw if the fields are not present; instead, capiArticleId will be an empty string ("")

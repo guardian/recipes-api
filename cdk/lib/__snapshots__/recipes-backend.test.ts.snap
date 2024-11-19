@@ -18,6 +18,7 @@ exports[`The RecipesBackend stack matches the snapshot 1`] = `
       "GuLambdaErrorPercentageAlarm",
       "GuApiLambda",
       "GuScheduledLambda",
+      "GuScheduledLambda",
     ],
     "gu:cdk:version": "TEST",
   },
@@ -1144,6 +1145,308 @@ def sort_filter_rules(json_obj):
         },
       },
       "Type": "AWS::ApiGateway::Resource",
+    },
+    "PublishContributors7FDDEA0E": {
+      "DependsOn": [
+        "PublishContributorsServiceRoleDefaultPolicyEEA7218F",
+        "PublishContributorsServiceRole5EFC8614",
+      ],
+      "Properties": {
+        "Architectures": [
+          "arm64",
+        ],
+        "Code": {
+          "S3Bucket": {
+            "Ref": "DistributionBucketName",
+          },
+          "S3Key": "content-api/TEST/recipes-publish-contributor-information/profile-cache-rebuild.zip",
+        },
+        "Environment": {
+          "Variables": {
+            "APP": "recipes-publish-contributor-information",
+            "CAPI_BASE_URL": "content.guardianapis.com",
+            "CAPI_KEY": {
+              "Ref": "capiKey",
+            },
+            "CONTENT_URL_BASE": "recipes.guardianapis.com",
+            "FASTLY_API_KEY": {
+              "Ref": "fastlyKey",
+            },
+            "STACK": "content-api",
+            "STAGE": "TEST",
+            "STATIC_BUCKET": {
+              "Ref": "staticstaticServing53194089",
+            },
+          },
+        },
+        "FunctionName": "PublishRecipeContributors-TEST",
+        "Handler": "main.handler",
+        "LoggingConfig": {
+          "LogFormat": "JSON",
+        },
+        "MemorySize": 256,
+        "Role": {
+          "Fn::GetAtt": [
+            "PublishContributorsServiceRole5EFC8614",
+            "Arn",
+          ],
+        },
+        "Runtime": "nodejs20.x",
+        "Tags": [
+          {
+            "Key": "App",
+            "Value": "recipes-publish-contributor-information",
+          },
+          {
+            "Key": "gu:cdk:version",
+            "Value": "TEST",
+          },
+          {
+            "Key": "gu:repo",
+            "Value": "guardian/recipes-backend",
+          },
+          {
+            "Key": "Stack",
+            "Value": "content-api",
+          },
+          {
+            "Key": "Stage",
+            "Value": "TEST",
+          },
+        ],
+        "Timeout": 30,
+      },
+      "Type": "AWS::Lambda::Function",
+    },
+    "PublishContributorsPublishContributorscron16089AD5627": {
+      "Properties": {
+        "Description": "Update cache of contributor information for Feast at 16 minutes past every hour",
+        "ScheduleExpression": "cron(16 * * * ? *)",
+        "State": "ENABLED",
+        "Targets": [
+          {
+            "Arn": {
+              "Fn::GetAtt": [
+                "PublishContributors7FDDEA0E",
+                "Arn",
+              ],
+            },
+            "Id": "Target0",
+          },
+        ],
+      },
+      "Type": "AWS::Events::Rule",
+    },
+    "PublishContributorsPublishContributorscron160AllowEventRuleRecipesBackendPublishContributorsE21492564767307C": {
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "PublishContributors7FDDEA0E",
+            "Arn",
+          ],
+        },
+        "Principal": "events.amazonaws.com",
+        "SourceArn": {
+          "Fn::GetAtt": [
+            "PublishContributorsPublishContributorscron16089AD5627",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
+    "PublishContributorsServiceRole5EFC8614": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "lambda.amazonaws.com",
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "ManagedPolicyArns": [
+          {
+            "Fn::Join": [
+              "",
+              [
+                "arn:",
+                {
+                  "Ref": "AWS::Partition",
+                },
+                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+              ],
+            ],
+          },
+        ],
+        "Tags": [
+          {
+            "Key": "App",
+            "Value": "recipes-publish-contributor-information",
+          },
+          {
+            "Key": "gu:cdk:version",
+            "Value": "TEST",
+          },
+          {
+            "Key": "gu:repo",
+            "Value": "guardian/recipes-backend",
+          },
+          {
+            "Key": "Stack",
+            "Value": "content-api",
+          },
+          {
+            "Key": "Stage",
+            "Value": "TEST",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Role",
+    },
+    "PublishContributorsServiceRoleDefaultPolicyEEA7218F": {
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": "*",
+              "Effect": "Deny",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "staticstaticServing53194089",
+                        "Arn",
+                      ],
+                    },
+                    "/content/*",
+                  ],
+                ],
+              },
+            },
+            {
+              "Action": [
+                "s3:PutObject",
+                "s3:GetObject",
+              ],
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    {
+                      "Fn::GetAtt": [
+                        "staticstaticServing53194089",
+                        "Arn",
+                      ],
+                    },
+                    "/*",
+                  ],
+                ],
+              },
+            },
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*",
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "DistributionBucketName",
+                      },
+                    ],
+                  ],
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      "arn:",
+                      {
+                        "Ref": "AWS::Partition",
+                      },
+                      ":s3:::",
+                      {
+                        "Ref": "DistributionBucketName",
+                      },
+                      "/content-api/TEST/recipes-publish-contributor-information/profile-cache-rebuild.zip",
+                    ],
+                  ],
+                },
+              ],
+            },
+            {
+              "Action": "ssm:GetParametersByPath",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:ssm:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":parameter/TEST/content-api/recipes-publish-contributor-information",
+                  ],
+                ],
+              },
+            },
+            {
+              "Action": [
+                "ssm:GetParameters",
+                "ssm:GetParameter",
+              ],
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:aws:ssm:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":parameter/TEST/content-api/recipes-publish-contributor-information/*",
+                  ],
+                ],
+              },
+            },
+          ],
+          "Version": "2012-10-17",
+        },
+        "PolicyName": "PublishContributorsServiceRoleDefaultPolicyEEA7218F",
+        "Roles": [
+          {
+            "Ref": "PublishContributorsServiceRole5EFC8614",
+          },
+        ],
+      },
+      "Type": "AWS::IAM::Policy",
     },
     "PublishTodaysCuration6EFD9033": {
       "DependsOn": [

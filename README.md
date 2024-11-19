@@ -146,9 +146,9 @@ inherent in checking for them. Furthermore, it's important the the app can work 
 
 ### Why no search API?
 
-Because it's not (yet) a client requirement. At the time of writing, the desire is to do all searching client-side because the app feature-set is very much up in the air.
-
-This may be revisited in future.
+The data here is for _retrieval_ only; search is a seperate concern which is implemented at https://github.com/guardian/recipe-search-backend.  This is because the search
+uses a different tech stack to do advanced semantic search wheras the code here is only concerned with pushing the recipe data into a place where it can
+easily be retrieved.
 
 ### Auth
 
@@ -160,6 +160,20 @@ Endpoints which require authentication use [API Gateway API keys](https://eu-wes
 
 This is the lambda function which listens to Kinesis updates from crier. It is responsible for all of the processing and extraction logic, although
 most of the actual logic lives in the library code imported into it
+
+### lambda/facia-responder
+
+This lambda function responds to curation updates from the Fronts Tool (aka Facia) and publishes them for the Feast app as well as updating Facia with the
+publication status
+
+### lambda/publish-todays-curation
+
+This lambda function runs once a day to take that day's curation from the dated folders where it is stored and copy it to the "current" curation.  It's
+also triggered by S3 when a new curation data json is written to dated folders; if the date is todays then it is published immediately
+
+### lambda/profile-cache-rebuild
+
+This lambda function is run hourly to update a mapping cache of {tag-id}->{contributor info} at `v2/contributors.json`
 
 ### lambda/test-indexbuild
 
