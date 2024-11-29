@@ -29,8 +29,11 @@ export function buildUriList(
 	}
 
 	const joinedIdList = encodeURIComponent(tagIdList.join(','));
-	const testUri = `${capiBaseUrl}/tags?ids=${joinedIdList}&api-key=${capiKey}`;
-	if (testUri.length > URL_MAX) {
+	//page-size is 50 because the max tag ids that capi can accept for lookup at once is 50 therefore there cannot be more than that in the output
+	const testUri = `${capiBaseUrl}/tags?ids=${joinedIdList}&api-key=${capiKey}&page-size=50`;
+
+	//CAPI errors if we give it more than 50 tag ids
+	if (testUri.length > URL_MAX || tagIdList.length > 50) {
 		//uri is not usable, try again
 		const midpoint = tagIdList.length / 2;
 		const newTail = tagIdListTail.concat(tagIdList.slice(midpoint));
@@ -81,7 +84,6 @@ export async function fetchTagsById(
 		} else {
 			const rawBytes = await response.arrayBuffer();
 			const contentBody = deserialzeTagsResponse(Buffer.from(rawBytes));
-
 			results = results.concat(...contentBody.results);
 		}
 	}
