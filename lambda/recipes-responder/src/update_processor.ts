@@ -66,11 +66,13 @@ export async function handleContentUpdate({
 	staticBucketName,
 	fastlyApiKey,
 	contentPrefix,
+	outgoingEventBus,
 }: {
 	content: Content;
 	staticBucketName: string;
 	fastlyApiKey: string;
 	contentPrefix: string;
+	outgoingEventBus: string;
 }): Promise<number> {
 	try {
 		if (content.type != ContentType.ARTICLE) return 0; //no point processing live-blogs etc.
@@ -122,7 +124,7 @@ export async function handleContentUpdate({
 		);
 
 		try {
-			await announceNewRecipe(allRecipes, entriesToRemove);
+			await announceNewRecipe(allRecipes, entriesToRemove, outgoingEventBus);
 		} catch (e) {
 			const err = e as Error;
 			console.error(`Unable to announce updates: ${err.toString()}`);

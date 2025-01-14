@@ -10,6 +10,7 @@ import {
 import {
 	getContentPrefix,
 	getFastlyApiKey,
+	getOutgoingEventBus,
 	getStaticBucketName,
 } from 'lib/recipes-data/src/lib/config';
 import { CapiKey } from './config';
@@ -69,6 +70,7 @@ async function reindex(
 	staticBucketName: string,
 	fastlyApiKey: string,
 	contentPrefix: string,
+	outgoingEventBus: string,
 ): Promise<void> {
 	const pollingResult = await retrieveContent(queryUri);
 	switch (pollingResult.action) {
@@ -86,6 +88,7 @@ async function reindex(
 					staticBucketName,
 					fastlyApiKey,
 					contentPrefix,
+					outgoingEventBus,
 				});
 			} else {
 				throw new Error(
@@ -103,6 +106,7 @@ async function main() {
 	const staticBucketName = getStaticBucketName();
 	const contentPrefix = getContentPrefix();
 	const fastlyApiKey = getFastlyApiKey();
+	const outgoingEventBus = getOutgoingEventBus();
 
 	//Parse the commandline arguments
 	const {
@@ -217,6 +221,7 @@ async function main() {
 						staticBucketName,
 						fastlyApiKey,
 						contentPrefix,
+						outgoingEventBus,
 					);
 				} catch (e) {
 					console.error(
@@ -233,7 +238,13 @@ async function main() {
 		if (test) {
 			console.log('Not performing any operations as --test was specified');
 		} else {
-			await reindex(queryUri, staticBucketName, fastlyApiKey, contentPrefix);
+			await reindex(
+				queryUri,
+				staticBucketName,
+				fastlyApiKey,
+				contentPrefix,
+				outgoingEventBus,
+			);
 		}
 	}
 

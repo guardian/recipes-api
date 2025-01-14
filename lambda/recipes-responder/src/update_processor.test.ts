@@ -20,6 +20,7 @@ import Mock = jest.Mock;
 const staticBucketName = 'static-bucket';
 const fastlyApiKey = 'fastly-api-key';
 const contentPrefix = 'cdn.content.location';
+const outgoingEventBus = 'outgoing-event-bus';
 
 jest.mock('@recipes-api/lib/recipes-data', () => ({
 	calculateChecksum: jest.fn(),
@@ -107,6 +108,7 @@ describe('update_processor.handleContentUpdate', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 
 		// @ts-ignore -- Typescript doesn't know that this is a mock
@@ -259,6 +261,7 @@ describe('update_processor.handleContentUpdate', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 
 		// @ts-ignore -- Typescript doesn't know that this is a mock
@@ -298,6 +301,7 @@ describe('update_processor.handleContentUpdate', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 
 		// @ts-ignore -- Typescript doesn't know that this is a mock
@@ -382,6 +386,7 @@ describe('update_processor.handleContentUpdate', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 
 		// @ts-ignore -- Typescript doesn't know that this is a mock

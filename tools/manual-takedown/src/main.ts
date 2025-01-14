@@ -2,6 +2,7 @@ import * as process from 'process';
 import {
 	getContentPrefix,
 	getFastlyApiKey,
+	getOutgoingEventBus,
 	getStaticBucketName,
 	removeAllRecipesForArticle,
 } from '@recipes-api/lib/recipes-data';
@@ -21,6 +22,7 @@ async function main() {
 	const staticBucketName = getStaticBucketName();
 	const fastlyApiKey = getFastlyApiKey();
 	const contentPrefix = getContentPrefix();
+	const outgoingEventBus = getOutgoingEventBus();
 
 	console.log('Attempting takedown on ', articleId);
 	await removeAllRecipesForArticle({
@@ -28,6 +30,7 @@ async function main() {
 		staticBucketName,
 		fastlyApiKey,
 		contentPrefix,
+		outgoingEventBus,
 	});
 }
 

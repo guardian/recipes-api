@@ -20,6 +20,7 @@ jest.mock('../../../lib/recipes-data/src/lib/eventbus', () => ({
 const staticBucketName = 'static-bucket-name';
 const fastlyApiKey = 'fastly-api-key';
 const contentPrefix = 'cdn.content.location';
+const outgoingEventBus = 'outgoing-event-bus';
 
 describe('takedown_processor.handleTakedown', () => {
 	beforeEach(() => {
@@ -42,6 +43,7 @@ describe('takedown_processor.handleTakedown', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		expect(removeAllRecipesForArticle.mock.calls.length).toEqual(1);
@@ -67,6 +69,7 @@ describe('takedown_processor.handleTakedown', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		expect(removeAllRecipesForArticle.mock.calls.length).toEqual(0);

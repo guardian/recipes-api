@@ -18,6 +18,8 @@ jest.mock('@recipes-api/cwmetrics', () => ({
 	registerMetric: jest.fn(),
 }));
 
+const outgoingEventBus = 'outgoing-event-bus';
+
 describe('announce_new_recipe', () => {
 	beforeEach(() => {
 		mockEbClient.reset();
@@ -68,7 +70,7 @@ describe('announce_new_recipe', () => {
 				},
 			],
 		});
-		const result = await announceNewRecipe(updates, removals);
+		const result = await announceNewRecipe(updates, removals, outgoingEventBus);
 		expect(result).toEqual(3);
 
 		expect(mockEbClient.commandCalls(PutEventsCommand).length).toEqual(1);

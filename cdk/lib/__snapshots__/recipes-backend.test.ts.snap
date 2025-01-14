@@ -1460,7 +1460,7 @@ def sort_filter_rules(json_obj):
           "Fn::Join": [
             "",
             [
-              "{"StartAt":"checkForOtherRunningTasks","States":{"checkForOtherRunningTasks":{"Next":"IsOnlyRunningReindex","Type":"Task","Parameters":{"StatusFilter":"RUNNING","StateMachineArn.$":"$$.StateMachine.Id"},"Resource":"arn:aws:states:::aws-sdk:sfn:listExecutions"},"IsOnlyRunningReindex":{"Type":"Choice","Choices":[{"Variable":"$.Executions[1]","IsPresent":false,"Next":"SnapshotOrderedIndexTask"}],"Default":"Fail"},"Fail":{"Type":"Fail","Error":"ReindexingError","Cause":"Other reindexes running"},"SnapshotOrderedIndexTask":{"Next":"WriteBatchToReindexQueueTask","Retry":[{"ErrorEquals":["Lambda.ClientExecutionTimeoutException","Lambda.ServiceException","Lambda.AWSLambdaException","Lambda.SdkClientException"],"IntervalSeconds":2,"MaxAttempts":6,"BackoffRate":2}],"Type":"Task","Resource":"arn:",
+              "{"StartAt":"storeDryRun","States":{"storeDryRun":{"Next":"checkForOtherRunningTasks","Type":"Pass","Assign":{"dryRun.$":"$.dryRun"}},"checkForOtherRunningTasks":{"Next":"IsOnlyRunningReindex","Type":"Task","Parameters":{"StatusFilter":"RUNNING","StateMachineArn.$":"$$.StateMachine.Id"},"Resource":"arn:aws:states:::aws-sdk:sfn:listExecutions"},"IsOnlyRunningReindex":{"Type":"Choice","Choices":[{"Variable":"$.Executions[1]","IsPresent":false,"Next":"SnapshotOrderedIndexTask"}],"Default":"Fail"},"Fail":{"Type":"Fail","Error":"ReindexingError","Cause":"Other reindexes running"},"SnapshotOrderedIndexTask":{"Next":"WriteBatchToReindexQueueTask","Retry":[{"ErrorEquals":["Lambda.ClientExecutionTimeoutException","Lambda.ServiceException","Lambda.AWSLambdaException","Lambda.SdkClientException"],"IntervalSeconds":2,"MaxAttempts":6,"BackoffRate":2}],"Type":"Task","Resource":"arn:",
               {
                 "Ref": "AWS::Partition",
               },
@@ -1482,7 +1482,7 @@ def sort_filter_rules(json_obj):
                   "Arn",
                 ],
               },
-              "","Payload.$":"$"}},"WaitForThroughPut":{"Type":"Wait","Seconds":",
+              "","Payload":{"input.$":"$","dryRun.$":"$dryRun"}}},"WaitForThroughPut":{"Type":"Wait","Seconds":",
               {
                 "Ref": "reindexWaitTimeParam",
               },
@@ -1764,6 +1764,30 @@ def sort_filter_rules(json_obj):
                 ],
               },
               "Sid": "AllowEventRuleRecipesBackendCrierConnection45DBF5AE",
+            },
+            {
+              "Action": "sqs:SendMessage",
+              "Condition": {
+                "ArnEquals": {
+                  "aws:SourceArn": {
+                    "Fn::GetAtt": [
+                      "ReindexConnection1CF3117C",
+                      "Arn",
+                    ],
+                  },
+                },
+              },
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "events.amazonaws.com",
+              },
+              "Resource": {
+                "Fn::GetAtt": [
+                  "RecipeResponderDLQ4E2B8219",
+                  "Arn",
+                ],
+              },
+              "Sid": "AllowEventRuleRecipesBackendReindexConnection8B49D5D3",
             },
           ],
           "Version": "2012-10-17",
@@ -2393,6 +2417,61 @@ def sort_filter_rules(json_obj):
       },
       "Type": "AWS::Lambda::EventSourceMapping",
     },
+    "ReindexConnection1CF3117C": {
+      "Properties": {
+        "Description": "Connect recipe responder TEST to recipes-reindex",
+        "EventBusName": "crier-eventbus-content-api-crier-v2-TEST",
+        "EventPattern": {
+          "source": [
+            "recipes-reindex",
+          ],
+        },
+        "State": "ENABLED",
+        "Targets": [
+          {
+            "Arn": {
+              "Fn::GetAtt": [
+                "updaterLambdaE2EB52D9",
+                "Arn",
+              ],
+            },
+            "DeadLetterConfig": {
+              "Arn": {
+                "Fn::GetAtt": [
+                  "RecipeResponderDLQ4E2B8219",
+                  "Arn",
+                ],
+              },
+            },
+            "Id": "Target0",
+            "RetryPolicy": {
+              "MaximumEventAgeInSeconds": 1800,
+              "MaximumRetryAttempts": 5,
+            },
+          },
+        ],
+      },
+      "Type": "AWS::Events::Rule",
+    },
+    "ReindexConnectionAllowEventRuleRecipesBackendupdaterLambda0796CBC5D1F721BF": {
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Fn::GetAtt": [
+            "updaterLambdaE2EB52D9",
+            "Arn",
+          ],
+        },
+        "Principal": "events.amazonaws.com",
+        "SourceArn": {
+          "Fn::GetAtt": [
+            "ReindexConnection1CF3117C",
+            "Arn",
+          ],
+        },
+      },
+      "Type": "AWS::Lambda::Permission",
+    },
     "SnapshotRecipeIndexLambdaA94048E1": {
       "DependsOn": [
         "SnapshotRecipeIndexLambdaServiceRoleDefaultPolicy189EC0D5",
@@ -2682,6 +2761,7 @@ def sort_filter_rules(json_obj):
         "Environment": {
           "Variables": {
             "APP": "recipes-reindex-write-batch-to-index-queue",
+            "OUTGOING_EVENT_BUS": "crier-eventbus-content-api-crier-v2-TEST",
             "RECIPE_INDEX_SNAPSHOT_BUCKET": {
               "Ref": "RecipeReindexreindexSnapshotBucketB9E1DA96",
             },
@@ -2805,6 +2885,35 @@ def sort_filter_rules(json_obj):
                   ],
                 ],
               },
+            },
+            {
+              "Action": "events:PutEvents",
+              "Effect": "Allow",
+              "Resource": {
+                "Fn::Join": [
+                  "",
+                  [
+                    "arn:",
+                    {
+                      "Ref": "AWS::Partition",
+                    },
+                    ":events:",
+                    {
+                      "Ref": "AWS::Region",
+                    },
+                    ":",
+                    {
+                      "Ref": "AWS::AccountId",
+                    },
+                    ":event-bus/crier-eventbus-content-api-crier-v2-TEST",
+                  ],
+                ],
+              },
+            },
+            {
+              "Action": "cloudwatch:PutMetricData",
+              "Effect": "Allow",
+              "Resource": "*",
             },
             {
               "Action": [
@@ -3475,6 +3584,7 @@ def sort_filter_rules(json_obj):
         "Environment": {
           "Variables": {
             "APP": "recipes-responder",
+            "CAPI_BASE_URL": "https://content.code.dev-guardianapis.com",
             "CAPI_KEY": {
               "Ref": "capiKey",
             },

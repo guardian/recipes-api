@@ -34,6 +34,8 @@ export const getFastlyApiKey = createGetMandatoryParameter('FASTLY_API_KEY');
 //Used by s3.ts
 export const getStaticBucketName = createGetMandatoryParameter('STATIC_BUCKET');
 
+export const getCapiBaseUrl = createGetMandatoryParameter('CAPI_BASE_URL');
+
 //Used by telemetry
 export const TelemetryXAR = process.env['TELEMETRY_XAR'];
 export const TelemetryTopic = process.env['TELEMETRY_TOPIC'];
@@ -50,4 +52,5 @@ export const ImageDpr = process.env['IMAGE_DPR']
 	: 1;
 
 //Used by eventbus
-export const OutgoingEventBus = process.env['OUTGOING_EVENT_BUS'];
+export const getOutgoingEventBus =
+	createGetMandatoryParameter('OUTGOING_EVENT_BUS');

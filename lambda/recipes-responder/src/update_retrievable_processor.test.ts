@@ -3,7 +3,7 @@ import type { Content } from '@guardian/content-api-models/v1/content';
 import { ContentType } from '@guardian/content-api-models/v1/contentType';
 import { callCAPI } from '@recipes-api/lib/capi';
 import { handleContentUpdate } from './update_processor';
-import { handleContentUpdateRetrievable } from './update_retrievable_processor';
+import { handleContentUpdateByCapiUrl } from './update_retrievable_processor';
 
 jest.mock('@recipes-api/lib/capi', () => ({
 	callCAPI: jest.fn(),
@@ -37,8 +37,9 @@ const fakeContent: Content = {
 const staticBucketName = 'static-bucket';
 const fastlyApiKey = 'fastly-api-key';
 const contentPrefix = 'cdn.content.location';
+const outgoingEventBus = 'outgoing-event-bus';
 
-describe('handleContentUpdateRetrievable', () => {
+describe('handleContentUpdateByCapiUrl', () => {
 	beforeEach(() => {
 		jest.resetAllMocks();
 	});
@@ -51,11 +52,12 @@ describe('handleContentUpdateRetrievable', () => {
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		handleContentUpdate.mockReturnValue(Promise.resolve(3));
 
-		const recordCount = await handleContentUpdateRetrievable({
-			retrievable: fakeUpdate,
+		const recordCount = await handleContentUpdateByCapiUrl({
+			...fakeUpdate,
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		expect(callCAPI.mock.calls.length).toEqual(1);
@@ -80,14 +82,15 @@ describe('handleContentUpdateRetrievable', () => {
 			Promise.resolve({ action: 0, content: fakeContent }),
 		);
 
-		const recordCount = await handleContentUpdateRetrievable({
-			retrievable: {
+		const recordCount = await handleContentUpdateByCapiUrl({
+			...{
 				...fakeUpdate,
 				contentType: ContentType.GALLERY,
 			},
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		expect(callCAPI.mock.calls.length).toEqual(0);
@@ -103,11 +106,12 @@ describe('handleContentUpdateRetrievable', () => {
 		);
 
 		await expect(
-			handleContentUpdateRetrievable({
-				retrievable: fakeUpdate,
+			handleContentUpdateByCapiUrl({
+				...fakeUpdate,
 				staticBucketName,
 				fastlyApiKey,
 				contentPrefix,
+				outgoingEventBus,
 			}),
 		).rejects.toEqual(
 			new Error(
@@ -127,11 +131,12 @@ describe('handleContentUpdateRetrievable', () => {
 			Promise.resolve({ action: 1, content: fakeContent }),
 		);
 
-		const recordCount = await handleContentUpdateRetrievable({
-			retrievable: fakeUpdate,
+		const recordCount = await handleContentUpdateByCapiUrl({
+			...fakeUpdate,
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 		// @ts-ignore -- Typescript doesn't know that this is a mock
 		expect(callCAPI.mock.calls.length).toEqual(1);

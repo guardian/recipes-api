@@ -5,11 +5,19 @@ import indexJSON from './fixtures/index.json';
 import { writeBatchToReindexQueueHandler } from './index';
 
 const RecipeIndexSnapshotBucket = 'example-reindex-bucket';
+const OutgoingEventBus = 'outgoing-event-bus';
 const ReindexBatchSize = 10;
+const ReindexChunkSize = 10;
 
 jest.mock('../config', () => ({
 	getRecipeIndexSnapshotBucket: () => RecipeIndexSnapshotBucket,
 	getReindexBatchSize: () => ReindexBatchSize,
+	getReindexChunkSize: () => ReindexChunkSize,
+}));
+
+jest.mock('@recipes-api/lib/recipes-data', () => ({
+	getOutgoingEventBus: () => OutgoingEventBus,
+	putReindexIds: jest.fn(),
 }));
 
 const s3Mock = mockClient(S3Client);
@@ -27,9 +35,11 @@ describe('writeBatchToReindexQueue', () => {
 	it('should move the current index on by the batch size', async () => {
 		const output = await writeBatchToReindexQueueHandler(
 			{
-				nextIndex: 0,
-				indexObjectKey: 'path/to/key',
-				executionId: 'example-execution-id',
+				input: {
+					nextIndex: 0,
+					indexObjectKey: 'path/to/key',
+					executionId: 'example-execution-id',
+				},
 				dryRun: true,
 			},
 			mockContext,
@@ -43,9 +53,11 @@ describe('writeBatchToReindexQueue', () => {
 	it('should move the index one beyond the last recipe on completion', async () => {
 		const output = await writeBatchToReindexQueueHandler(
 			{
-				nextIndex: 170,
-				indexObjectKey: 'path/to/key',
-				executionId: 'example-execution-id',
+				input: {
+					nextIndex: 170,
+					indexObjectKey: 'path/to/key',
+					executionId: 'example-execution-id',
+				},
 				dryRun: true,
 			},
 			mockContext,

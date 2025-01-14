@@ -43,6 +43,7 @@ jest.mock('./telemetry', () => ({
 const fastlyApiKey = 'fastly-api-key';
 const staticBucketName = 'static-bucket';
 const contentPrefix = 'content-prefix';
+const outgoingEventBus = 'outgoing-event-bus';
 
 describe('takedown', () => {
 	beforeEach(() => {
@@ -158,6 +159,7 @@ describe('takedown', () => {
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		});
 
 		//@ts-ignore -- Typescript doesn't know that this is a mock

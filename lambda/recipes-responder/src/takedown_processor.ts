@@ -8,11 +8,13 @@ export async function handleTakedown({
 	staticBucketName,
 	fastlyApiKey,
 	contentPrefix,
+	outgoingEventBus,
 }: {
 	event: Event;
 	staticBucketName: string;
 	fastlyApiKey: string;
 	contentPrefix: string;
+	outgoingEventBus: string;
 }): Promise<number> {
 	console.log('takedown payload: ', JSON.stringify(event));
 
@@ -23,6 +25,7 @@ export async function handleTakedown({
 			staticBucketName,
 			fastlyApiKey,
 			contentPrefix,
+			outgoingEventBus,
 		}); //event.payloadId is the canonical article ref that was taken down
 	} else {
 		return 0;

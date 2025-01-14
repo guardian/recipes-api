@@ -1,8 +1,6 @@
-//This file is copied from pubflow-two application to follow same kinda metric registration. Changes done the required variable names.
 import {
 	CloudWatchClient,
 	PutMetricDataCommand,
-	StandardUnit,
 } from '@aws-sdk/client-cloudwatch';
 
 const cwClient = new CloudWatchClient({ region: process.env['AWS_REGION'] });

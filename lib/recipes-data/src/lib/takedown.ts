@@ -132,11 +132,13 @@ export async function removeAllRecipesForArticle({
 	staticBucketName,
 	fastlyApiKey,
 	contentPrefix,
+	outgoingEventBus,
 }: {
 	canonicalArticleId: string;
 	staticBucketName: string;
 	fastlyApiKey: string;
 	contentPrefix: string;
+	outgoingEventBus: string;
 }): Promise<number> {
 	const removedEntries =
 		await removeAllRecipeIndexEntriesForArticle(canonicalArticleId);
@@ -156,7 +158,7 @@ export async function removeAllRecipesForArticle({
 	);
 
 	try {
-		await announceNewRecipe([], removedEntries);
+		await announceNewRecipe([], removedEntries, outgoingEventBus);
 	} catch (e) {
 		const err = e as Error;
 		console.error(`Unable to announce takedowns: ${err.toString()}`);
